@@ -1,0 +1,27 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Yunus', [from:0, to:5, lemma:'yunus', sem:'PER', wordnet:'male.n.02'])),
+   fa(s:dcl\np,
+    bxc((s:dcl\np)/pr,
+     gbxc(((s:dcl\np)/np)/pr,
+      t(((s:dcl\np)/np)/pr, 'richtte', [from:6, to:13, lemma:'found', sem:'EPS', wordnet:'found.v.01', verbnet:['Theme','Agent']]),
+      ba((s:dcl\np)\(s:dcl\np),
+       lx(np, n,
+        fa(n,
+         t(n/n, '30', [from:14, to:16, lemma:'30', sem:'QUC', wordnet:'O', verbnet:['Quantity']]),
+         t(n, 'jaar', [from:17, to:21, lemma:'year', sem:'UOM', wordnet:'year.n.01']))),
+       t(((s:dcl\np)\(s:dcl\np))\np, 'geleden', [from:22, to:29, lemma:'ago', sem:'PST', wordnet:'O']))),
+     lx((s:dcl\np)\((s:dcl\np)/np), np,
+      fa(np,
+       t(np/n, 'de', [from:30, to:32, lemma:'the', sem:'DEF', wordnet:'O']),
+       t(n, 'Grameen~Bank', [from:33, to:45, lemma:'grameen~bank', sem:'ORG', wordnet:'company.n.01'])))),
+    t(pr, 'op', [from:46, to:48, lemma:'op', sem:'REL', wordnet:'O']))),
+  t(s:dcl\s:dcl, '.', [from:48, to:49, lemma:'.', sem:'NIL', wordnet:'O']))).
+

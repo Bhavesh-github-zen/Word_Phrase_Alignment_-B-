@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- ø Euro-Disney ist ein Vergnügungspark . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Euro-Disney</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">euro-disney</tag>
+     <tag type="lemma">euro-disney</tag>
+     <tag type="from">0</tag>
+     <tag type="to">11</tag>
+     <tag type="sem">PER</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="tok">ist</tag>
+     <tag type="cat">(s:dcl\np)/np</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">12</tag>
+     <tag type="to">15</tag>
+     <tag type="sem">ENS</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="2">[Co-Theme,Theme]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ein</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">an</tag>
+     <tag type="lemma">an</tag>
+     <tag type="from">16</tag>
+     <tag type="to">19</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Vergnügungspark</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">vergnügungspark</tag>
+     <tag type="lemma">vergnügungspark</tag>
+     <tag type="from">20</tag>
+     <tag type="to">35</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">35</tag>
+     <tag type="to">36</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b2">
+  <domain>
+   <dr label="b1" name="x1" from="0" to="-1"></dr>
+   <dr label="b2" name="x2" from="16" to="19"></dr>
+   <dr label="b2" name="e1" from="12" to="15"></dr>
+   <dr label="b2" name="t1" from="12" to="15"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="x1" symbol="person" synset="person.n.01" from="0" to="11"></pred>
+   </cond>
+   <cond label="b1">
+    <named arg="x1" symbol="euro-disney" from="0" to="11"></named>
+   </cond>
+   <cond label="b2">
+    <pred arg="t1" symbol="time" synset="time.n.08" from="12" to="15"></pred>
+   </cond>
+   <cond label="b2">
+    <comp symbol="EQU" arg1="t1" arg2="now" from="12" to="15"></comp>
+   </cond>
+   <cond label="b2">
+    <pred arg="e1" symbol="be" synset="be.v.01" from="12" to="15"></pred>
+   </cond>
+   <cond label="b2">
+    <rel arg1="e1" arg2="t1" symbol="Time" framenet="Time" from="12" to="15"></rel>
+   </cond>
+   <cond label="b2">
+    <rel arg1="e1" arg2="x2" symbol="Co-Theme" framenet="Replacing@New" from="12" to="15"></rel>
+   </cond>
+   <cond label="b2">
+    <rel arg1="e1" arg2="x1" symbol="Theme" framenet="Placing@Theme" from="12" to="15"></rel>
+   </cond>
+   <cond label="b2">
+    <pred arg="x2" symbol="vergnügungspark" synset="vergnügungspark.n.01" from="20" to="35"></pred>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

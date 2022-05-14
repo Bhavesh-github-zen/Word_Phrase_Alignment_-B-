@@ -1,0 +1,18 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Kraft', [from:0, to:5, lemma:'kraft', sem:'ORG', wordnet:'company.n.01'])),
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:pt\np), 'heeft', [from:6, to:11, lemma:'heeft', sem:'NOW', wordnet:'O']),
+    ba(s:pt\np,
+     lx(np, n,
+      t(n, 'Celestial~Seasonings', [from:12, to:32, lemma:'celestial~seasonings', sem:'ORG', wordnet:'company.n.01'])),
+     t((s:pt\np)\np, 'verkocht', [from:33, to:41, lemma:'sell', sem:'EXT', wordnet:'sell.v.01'])))),
+  t(s:dcl\s:dcl, '.', [from:41, to:42, lemma:'.', sem:'NIL', wordnet:'O']))).
+

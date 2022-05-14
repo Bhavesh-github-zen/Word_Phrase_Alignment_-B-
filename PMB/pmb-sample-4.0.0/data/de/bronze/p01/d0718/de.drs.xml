@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- >Der ø Streit zwischen ø Albanien und dem Vereinigten~Königreich über den Korfu-Vorfall hielt ø lange Zeit ø an . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">&gt;Der</tag>
+     <tag type="cat">np/np</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">0</tag>
+     <tag type="to">4</tag>
+     <tag type="sem">HAS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">5</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Streit</tag>
+     <tag type="cat">n/pp</tag>
+     <tag type="sym">dispute</tag>
+     <tag type="lemma">dispute</tag>
+     <tag type="from">5</tag>
+     <tag type="to">11</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="tok">zwischen</tag>
+     <tag type="cat">pp/np</tag>
+     <tag type="sym">between</tag>
+     <tag type="lemma">between</tag>
+     <tag type="from">12</tag>
+     <tag type="to">20</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Destination]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">21</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Albanien</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">albania</tag>
+     <tag type="lemma">albania</tag>
+     <tag type="from">21</tag>
+     <tag type="to">29</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">und</tag>
+     <tag type="cat">(np\np)/np</tag>
+     <tag type="sym">and</tag>
+     <tag type="lemma">and</tag>
+     <tag type="from">30</tag>
+     <tag type="to">33</tag>
+     <tag type="sem">GRP</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">dem</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">34</tag>
+     <tag type="to">37</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Vereinigten~Königreich</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">uk</tag>
+     <tag type="lemma">uk</tag>
+     <tag type="from">38</tag>
+     <tag type="to">60</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">über</tag>
+     <tag type="cat">(n\n)/np</tag>
+     <tag type="sym">about</tag>
+     <tag type="lemma">about</tag>
+     <tag type="from">61</tag>
+     <tag type="to">65</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Topic]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">den</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">66</tag>
+     <tag type="to">69</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Korfu-Vorfall</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">korfu-vorfall</tag>
+     <tag type="lemma">korfu-vorfall</tag>
+     <tag type="from">70</tag>
+     <tag type="to">83</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="tok">hielt</tag>
+     <tag type="cat">(s:dcl\np)/np</tag>
+     <tag type="sym">last</tag>
+     <tag type="lemma">last</tag>
+     <tag type="from">84</tag>
+     <tag type="to">89</tag>
+     <tag type="sem">EPS</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="2">[Theme,Agent]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">90</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="tok">lange</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">long</tag>
+     <tag type="lemma">long</tag>
+     <tag type="from">90</tag>
+     <tag type="to">95</tag>
+     <tag type="sem">DEG</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Attribute]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1016">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Zeit</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">time</tag>
+     <tag type="lemma">time</tag>
+     <tag type="from">96</tag>
+     <tag type="to">100</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1017">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:adj\np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">101</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1018">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">an</tag>
+     <tag type="cat">s:adj\np</tag>
+     <tag type="sym">an</tag>
+     <tag type="lemma">an</tag>
+     <tag type="from">101</tag>
+     <tag type="to">103</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1019">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">103</tag>
+     <tag type="to">104</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+   <dr label="b1" name="x1" from="5" to="-1"></dr>
+   <dr label="b1" name="x2" from="21" to="-2"></dr>
+   <dr label="b2" name="x3" from="34" to="37"></dr>
+   <dr label="b1" name="x4" from="12" to="20"></dr>
+   <dr label="b3" name="x5" from="66" to="69"></dr>
+   <dr label="b1" name="x6" from="90" to="-1"></dr>
+   <dr label="b1" name="s1" from="90" to="95"></dr>
+   <dr label="b1" name="e1" from="101" to="103"></dr>
+   <dr label="b1" name="e2" from="84" to="89"></dr>
+   <dr label="b1" name="t1" from="84" to="89"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="x1" symbol="dispute" synset="dispute.n.01" from="5" to="11"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x1" arg2="x5" symbol="Topic" framenet="Topic" from="61" to="65"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x1" arg2="x4" symbol="Destination" framenet="Destination" from="12" to="20"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x4" symbol="location" synset="location.n.01" from="12" to="20"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="SY2" arg1="x4" arg2="x2" from="12" to="20"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="x2" symbol="albania" synset="albania.n.01" from="21" to="29"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x2" arg2="x3" symbol="Participant" framenet="Participant" from="30" to="33"></rel>
+   </cond>
+   <cond label="b2">
+    <pred arg="x3" symbol="uk" synset="uk.n.01" from="38" to="60"></pred>
+   </cond>
+   <cond label="b3">
+    <pred arg="x5" symbol="korfu-vorfall" synset="korfu-vorfall.n.01" from="70" to="83"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="t1" symbol="time" synset="time.n.08" from="84" to="89"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="TPR" arg1="t1" arg2="now" from="84" to="89"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="e2" symbol="last" synset="last.v.01" from="84" to="89"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e2" arg2="t1" symbol="Time" framenet="Time" from="84" to="89"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e2" arg2="x6" symbol="Theme" framenet="Expensiveness@Goods" from="84" to="89"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e2" arg2="x1" symbol="Agent" framenet="Adding_up@Cognizer" from="84" to="89"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="s1" symbol="long" synset="long.a.01" from="90" to="95"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="s1" arg2="+" symbol="Value" framenet="Value" from="90" to="95"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x6" symbol="time" synset="time.n.01" from="96" to="100"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x6" arg2="s1" symbol="Attribute" framenet="Attribute" from="90" to="95"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="e1" symbol="an" synset="an.v.01" from="101" to="103"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x6" symbol="Theme" framenet="Placing@Theme" from="101" to="103"></rel>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

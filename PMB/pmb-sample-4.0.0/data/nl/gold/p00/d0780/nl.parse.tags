@@ -1,0 +1,26 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'De', [from:0, to:2, lemma:'the', sem:'DEF', wordnet:'O']),
+    t(n, 'astronauten', [from:3, to:14, lemma:'astronaut', sem:'ROL', wordnet:'astronaut.n.01'])),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     t((s:dcl\np)/pp, 'gingen', [from:15, to:21, lemma:'go', sem:'EPS', wordnet:'go.v.01', verbnet:['Theme']]),
+     fa(pp,
+      t(pp/np, 'naar', [from:22, to:26, lemma:'to', sem:'REL', wordnet:'O', verbnet:['Destination']]),
+      fa(np,
+       t(np/n, 'de', [from:27, to:29, lemma:'the', sem:'DEF', wordnet:'O']),
+       t(n, 'maan', [from:30, to:34, lemma:'moon', sem:'CON', wordnet:'moon.n.01'])))),
+    fa((s:dcl\np)\(s:dcl\np),
+     t(((s:dcl\np)\(s:dcl\np))/np, 'in', [from:35, to:37, lemma:'in', sem:'REL', wordnet:'O', verbnet:['Instrument']]),
+     fa(np,
+      t(np/n, 'een', [from:38, to:41, lemma:'a', sem:'DIS', wordnet:'O']),
+      t(n, 'raket', [from:42, to:47, lemma:'rocket', sem:'CON', wordnet:'rocket.n.01']))))),
+  t(s:dcl\s:dcl, '.', [from:47, to:48, lemma:'.', sem:'NIL', wordnet:'O']))).
+

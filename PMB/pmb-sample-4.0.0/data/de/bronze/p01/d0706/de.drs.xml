@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- Alle Termine werden durch die Computer-Terminals arrangiert , die ø die Terminaufzeichnungen jedes Patienten anzeigen können . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Alle</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">all</tag>
+     <tag type="lemma">all</tag>
+     <tag type="from">0</tag>
+     <tag type="to">4</tag>
+     <tag type="sem">AND</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Termine</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">appointment</tag>
+     <tag type="lemma">appointment</tag>
+     <tag type="from">5</tag>
+     <tag type="to">12</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">werden</tag>
+     <tag type="cat">(s:dcl\np)/(s:pss\np)</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">13</tag>
+     <tag type="to">19</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="tok">durch</tag>
+     <tag type="cat">((s:pss\np)/(s:pss\np))/np</tag>
+     <tag type="sym">through</tag>
+     <tag type="lemma">through</tag>
+     <tag type="from">20</tag>
+     <tag type="to">25</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Path]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">die</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">26</tag>
+     <tag type="to">29</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Computer-Terminals</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">computer-terminals</tag>
+     <tag type="lemma">computer-terminals</tag>
+     <tag type="from">30</tag>
+     <tag type="to">48</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="tok">arrangiert</tag>
+     <tag type="cat">s:pss\np</tag>
+     <tag type="sym">arrange</tag>
+     <tag type="lemma">arrange</tag>
+     <tag type="from">49</tag>
+     <tag type="to">59</tag>
+     <tag type="sem">ENS</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Theme]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">,</tag>
+     <tag type="cat">(np\np)/np</tag>
+     <tag type="sym">,</tag>
+     <tag type="lemma">,</tag>
+     <tag type="from">59</tag>
+     <tag type="to">60</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">die</tag>
+     <tag type="cat">np</tag>
+     <tag type="sym">die</tag>
+     <tag type="lemma">die</tag>
+     <tag type="from">61</tag>
+     <tag type="to">64</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:dcl/np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">65</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">die</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">die</tag>
+     <tag type="lemma">die</tag>
+     <tag type="from">65</tag>
+     <tag type="to">68</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Terminaufzeichnungen</tag>
+     <tag type="cat">n/np</tag>
+     <tag type="sym">terminaufzeichnungen</tag>
+     <tag type="lemma">terminaufzeichnungen</tag>
+     <tag type="from">69</tag>
+     <tag type="to">89</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">jedes</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">each</tag>
+     <tag type="lemma">each</tag>
+     <tag type="from">90</tag>
+     <tag type="to">95</tag>
+     <tag type="sem">AND</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Patienten</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">patient</tag>
+     <tag type="lemma">patient</tag>
+     <tag type="from">96</tag>
+     <tag type="to">105</tag>
+     <tag type="sem">ROL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">anzeigen</tag>
+     <tag type="cat">(s:b\np)\np</tag>
+     <tag type="sym">anzeigen</tag>
+     <tag type="lemma">anzeigen</tag>
+     <tag type="from">106</tag>
+     <tag type="to">114</tag>
+     <tag type="sem">NEC</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1016">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">können</tag>
+     <tag type="cat">(s:dcl\np)\(s:b\np)</tag>
+     <tag type="sym">können</tag>
+     <tag type="lemma">können</tag>
+     <tag type="from">115</tag>
+     <tag type="to">121</tag>
+     <tag type="sem">POS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1017">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">121</tag>
+     <tag type="to">122</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <not from="0" to="4">
+     <drs label="b2">
+      <domain>
+       <dr label="b2" name="x1" from="0" to="4"></dr>
+       <dr label="b2" name="x2" from="65" to="68"></dr>
+      </domain>
+      <conds>
+       <cond label="b2">
+        <not from="0" to="4">
+         <drs label="b3">
+          <domain>
+           <dr label="b3" name="e1" from="49" to="59"></dr>
+           <dr label="b1" name="t1" from="0" to="0"></dr>
+           <dr label="b4" name="x3" from="26" to="29"></dr>
+           <dr label="b3" name="x4" from="61" to="64"></dr>
+          </domain>
+          <conds>
+           <cond label="b3">
+            <pred arg="e1" symbol="arrange" synset="arrange.v.01" from="49" to="59"></pred>
+           </cond>
+           <cond label="b3">
+            <rel arg1="e1" arg2="x3" symbol="Path" framenet="Path" from="20" to="25"></rel>
+           </cond>
+           <cond label="b3">
+            <rel arg1="e1" arg2="t1" symbol="Time" framenet="Time" from="0" to="0"></rel>
+           </cond>
+           <cond label="b3">
+            <rel arg1="e1" arg2="x1" symbol="Theme" framenet="Placing@Theme" from="49" to="59"></rel>
+           </cond>
+           <cond label="b4">
+            <pred arg="x3" symbol="computer-terminals" synset="computer-terminals.n.01" from="30" to="48"></pred>
+           </cond>
+           <cond label="b3">
+            <rel arg1="x3" arg2="x4" symbol="Theme" framenet="Theme" from="59" to="60"></rel>
+           </cond>
+           <cond label="b3">
+            <pred arg="x4" symbol="entity" synset="entity.n.01" from="61" to="64"></pred>
+           </cond>
+           <cond label="b1">
+            <pred arg="t1" symbol="time" synset="time.n.08" from="0" to="0"></pred>
+           </cond>
+           <cond label="b1">
+            <comp symbol="EQU" arg1="t1" arg2="now" from="0" to="0"></comp>
+           </cond>
+          </conds>
+         </drs>
+        </not>
+       </cond>
+       <cond label="b2">
+        <pred arg="x1" symbol="appointment" synset="appointment.n.01" from="5" to="12"></pred>
+       </cond>
+       <cond label="b2">
+        <pred arg="x2" symbol="terminaufzeichnungen" synset="terminaufzeichnungen.n.01" from="69" to="89"></pred>
+       </cond>
+       <cond label="b2">
+        <rel arg1="x2" arg2="x1" symbol="Content" framenet="Content" from="69" to="89"></rel>
+       </cond>
+       <cond label="b2">
+        <pos from="115" to="121">
+         <drs label="b5">
+          <domain>
+          </domain>
+          <conds>
+           <cond label="b5">
+            <not from="90" to="95">
+             <drs label="b6">
+              <domain>
+               <dr label="b6" name="x5" from="90" to="95"></dr>
+               <dr label="b6" name="x6" from="96" to="105"></dr>
+              </domain>
+              <conds>
+               <cond label="b6">
+                <not from="90" to="95">
+                 <drs label="b7">
+                  <domain>
+                   <dr label="b7" name="s1" from="106" to="114"></dr>
+                  </domain>
+                  <conds>
+                   <cond label="b7">
+                    <pred arg="s1" symbol="anzeigen" synset="anzeigen.a.01" from="106" to="114"></pred>
+                   </cond>
+                   <cond label="b7">
+                    <rel arg1="s1" arg2="x5" symbol="Theme" framenet="Theme" from="106" to="114"></rel>
+                   </cond>
+                   <cond label="b7">
+                    <rel arg1="s1" arg2="x2" symbol="Agent" framenet="Agent" from="106" to="114"></rel>
+                   </cond>
+                  </conds>
+                 </drs>
+                </not>
+               </cond>
+               <cond label="b6">
+                <pred arg="x6" symbol="patient" synset="patient.n.01" from="96" to="105"></pred>
+               </cond>
+               <cond label="b6">
+                <pred arg="x5" symbol="person" synset="person.n.01" from="96" to="105"></pred>
+               </cond>
+               <cond label="b6">
+                <rel arg1="x5" arg2="x6" symbol="Role" framenet="Role" from="96" to="105"></rel>
+               </cond>
+              </conds>
+             </drs>
+            </not>
+           </cond>
+          </conds>
+         </drs>
+        </pos>
+       </cond>
+      </conds>
+     </drs>
+    </not>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

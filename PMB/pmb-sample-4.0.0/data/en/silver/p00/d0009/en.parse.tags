@@ -1,0 +1,36 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   ba(n,
+    t(n, 'football~player', [from:2, to:17, pos:'NN', lemma:'football~player', sem:'ROL', wordnet:'football_player.n.01']),
+    fa(n\n,
+     t((n\n)/np, 'in', [from:18, to:20, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+     fa(np,
+      t(np/n, 'a', [from:21, to:22, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+      fa(n,
+       t(n/n, 'purple', [from:23, to:29, pos:'JJ', lemma:'purple', sem:'COL', wordnet:'O', verbnet:['Colour']]),
+       t(n, 'jersey', [from:30, to:36, pos:'NN', lemma:'jersey', sem:'CON', wordnet:'jersey.n.03'])))))),
+  fa(s:dcl\np,
+   bxc((s:dcl\np)/(s:ng\np),
+    t((s:dcl\np)/(s:ng\np), 'is', [from:37, to:39, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    t((s\np)\(s\np), 'breathlessly', [from:40, to:52, pos:'RB', lemma:'breathlessly', sem:'IST', wordnet:'O', verbnet:['Manner']])),
+   ba(s:ng\np,
+    ba(s:ng\np,
+     t(s:ng\np, 'running', [from:53, to:60, pos:'VBG', lemma:'run', sem:'EXG', wordnet:'O', verbnet:['Theme']]),
+     fa((s\np)\(s\np),
+      t(((s\np)\(s\np))/np, 'with', [from:61, to:65, pos:'IN', lemma:'with', sem:'REL', wordnet:'O', verbnet:['Location']]),
+      fa(np,
+       t(np/n, 'the', [from:66, to:69, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+       t(n, 'ball', [from:70, to:74, pos:'NN', lemma:'ball', sem:'CON', wordnet:'ball.n.01'])))),
+    fa((s\np)\(s\np),
+     t(((s\np)\(s\np))/np, 'for', [from:75, to:78, pos:'IN', lemma:'for', sem:'REL', wordnet:'O', verbnet:['Duration']]),
+     fa(np,
+      t(np/n, 'a', [from:79, to:80, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+      t(n, 'touchdown', [from:81, to:90, pos:'NN', lemma:'touchdown', sem:'CON', wordnet:'touchdown.n.01']))))))).
+

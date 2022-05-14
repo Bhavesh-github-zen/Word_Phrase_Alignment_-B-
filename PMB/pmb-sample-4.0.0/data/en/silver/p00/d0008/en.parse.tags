@@ -1,0 +1,26 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   ba(n,
+    t(n, 'dog', [from:2, to:5, pos:'NN', lemma:'dog', sem:'CON', wordnet:'dog.n.01']),
+    fa(n\n,
+     t((n\n)/np, 'with', [from:6, to:10, pos:'IN', lemma:'with', sem:'REL', wordnet:'O', verbnet:['Instrument']]),
+     fa(np,
+      t(np/n, 'a', [from:11, to:12, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+      fa(n,
+       t(n/n, 'golden', [from:13, to:19, pos:'JJ', lemma:'golden', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+       t(n, 'coat', [from:20, to:24, pos:'NN', lemma:'coat', sem:'CON', wordnet:'coat.n.03'])))))),
+  fa(s:dcl\np,
+   t((s:dcl\np)/pp, 'is', [from:25, to:27, pos:'VBZ', lemma:'be', sem:'ENS', wordnet:'O', verbnet:['Theme']]),
+   fa(pp,
+    t(pp/np, 'in', [from:28, to:30, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+    fa(np,
+     t(np/n, 'the', [from:31, to:34, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+     t(n, 'water', [from:35, to:40, pos:'NN', lemma:'water', sem:'CON', wordnet:'water.n.02'])))))).
+

@@ -1,0 +1,26 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   ba(np,
+    fa(np,
+     t(np/n, 'Das', [from:0, to:3, lemma:'das', sem:'PRO', wordnet:'O']),
+     t(n, 'tschechische', [from:4, to:16, lemma:'czech~republic', sem:'ENS', wordnet:'O', verbnet:['Source']])),
+    fa(np\np,
+     t((np\np)/np, 'und', [from:17, to:20, lemma:'and', sem:'AND', wordnet:'O']),
+     fa(np,
+      t(np/n, 'das', [from:21, to:24, lemma:'das', sem:'DEF', wordnet:'O']),
+      fa(n,
+       t(n/n, 'polnische', [from:25, to:34, lemma:'poland', sem:'GPO', wordnet:'O', verbnet:['Source']]),
+       t(n, 'Parlament', [from:35, to:44, lemma:'parlament', sem:'CON', wordnet:'O']))))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'genehmigen', [from:45, to:55, lemma:'genehmigen', sem:'EPS', wordnet:'O']),
+    fa(np,
+     t(np/n, 'den', [from:56, to:59, lemma:'the', sem:'DEF', wordnet:'O']),
+     t(n, 'Plan', [from:60, to:64, lemma:'plan', sem:'CON', wordnet:'O'])))),
+  t(s:dcl\s:dcl, '.', [from:64, to:65, lemma:'.', sem:'NIL', wordnet:'O']))).
+

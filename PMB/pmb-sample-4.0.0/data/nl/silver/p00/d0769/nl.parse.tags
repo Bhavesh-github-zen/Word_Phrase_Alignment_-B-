@@ -1,0 +1,18 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   t(np, 'Hij', [from:0, to:3, lemma:'male', sem:'PRO', wordnet:'male.n.02']),
+   fa(s:dcl\np,
+    fa((s:dcl\np)/np,
+     t(((s:dcl\np)/np)/np, 'vertelde', [from:4, to:12, lemma:'tell', sem:'EPS', wordnet:'O', verbnet:['Recipient','Topic','Agent']]),
+     t(np, 'me', [from:13, to:15, lemma:'speaker', sem:'PRO', wordnet:'O'])),
+    fa(np,
+     t(np/(n/pp), 'zijn', [from:16, to:20, lemma:'male', sem:'HAS', wordnet:'male.n.02', verbnet:['User']]),
+     t(n/pp, 'levensverhaal', [from:21, to:34, lemma:'levensverhaal', sem:'CON', wordnet:'O'])))),
+  t(s:dcl\s:dcl, '.', [from:34, to:35, lemma:'.', sem:'NIL', wordnet:'O']))).
+

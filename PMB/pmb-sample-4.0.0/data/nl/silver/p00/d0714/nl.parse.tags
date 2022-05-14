@@ -1,0 +1,29 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fc(s:dcl/(s:adj\np),
+    lx(s:dcl/(s:dcl\np), np,
+     lx(np, n,
+      t(n, 'Computers', [from:0, to:9, lemma:'computers', sem:'PER', wordnet:'O']))),
+    t((s:dcl\np)/(s:adj\np), 'worden', [from:10, to:16, lemma:'worden', sem:'NOW', wordnet:'O'])),
+   fxc(s:dcl\(s:dcl/(s:adj\np)),
+    lx(s:dcl/s:dcl, s:pss\np,
+     t(s:pss\np, 'gebruikt', [from:17, to:25, lemma:'gebruikt', sem:'EXS', wordnet:'O'])),
+    lx(s:dcl\(s:dcl/(s:adj\np)), s:adj\np,
+     fa(s:adj\np,
+      t((s:adj\np)/((s:to\np)/np), 'om', [from:26, to:28, lemma:'om', sem:'REL', wordnet:'O']),
+      fc((s:to\np)/np,
+       t((s:to\np)/(s:b\np), 'te', [from:29, to:31, lemma:'te', sem:'INT', wordnet:'O']),
+       bxc((s:b\np)/np,
+        t((s:b\np)/np, 'voorzien', [from:32, to:40, lemma:'voorzien', sem:'IST', wordnet:'O']),
+        fa((s:b\np)\(s:b\np),
+         t(((s:b\np)\(s:b\np))/np, 'in', [from:41, to:43, lemma:'in', sem:'REL', wordnet:'O']),
+         lx(np, n,
+          t(n, 'gezondheidsinformatie', [from:44, to:65, lemma:'gezondheidsinformatie', sem:'CON', wordnet:'O']))))))))),
+  t(s:dcl\s:dcl, '.', [from:65, to:66, lemma:'.', sem:'NIL', wordnet:'O']))).
+

@@ -1,0 +1,30 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   fa(n,
+    t(n/n, 'blond', [from:2, to:7, pos:'JJ', lemma:'blond', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+    t(n, 'boy', [from:8, to:11, pos:'NN', lemma:'boy', sem:'CON', wordnet:'boy.n.01']))),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:ng\np), 'is', [from:12, to:14, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    fa(s:ng\np,
+     fa((s:ng\np)/np,
+      t(((s:ng\np)/np)/pr, 'walking', [from:15, to:22, pos:'VBG', lemma:'walk', sem:'EXG', wordnet:'O', verbnet:['Theme']]),
+      t(pr, 'up', [from:23, to:25, pos:'RP', lemma:'up', sem:'REL', wordnet:'O'])),
+     fa(np,
+      t(np/n, 'a', [from:26, to:27, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+      fa(n,
+       t(n/n, 'sand', [from:28, to:32, pos:'NN', lemma:'sand', sem:'CON', wordnet:'O', verbnet:['MadeOf']]),
+       t(n, 'dune', [from:33, to:37, pos:'NN', lemma:'dune', sem:'CON', wordnet:'O']))))),
+   fa((s\np)\(s\np),
+    t(((s\np)\(s\np))/np, 'with', [from:38, to:42, pos:'IN', lemma:'with', sem:'REL', wordnet:'O', verbnet:['Instrument']]),
+    fa(np,
+     t(np/n, 'a', [from:43, to:44, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+     t(n, 'skateboard', [from:45, to:55, pos:'NN', lemma:'skateboard', sem:'CON', wordnet:'skateboard.n.01'])))))).
+

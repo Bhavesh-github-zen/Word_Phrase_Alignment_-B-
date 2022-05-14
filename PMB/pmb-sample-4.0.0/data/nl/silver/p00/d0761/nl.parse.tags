@@ -1,0 +1,24 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Pierce', [from:0, to:6, lemma:'pierce', sem:'PER', wordnet:'male.n.02'])),
+   ba(s:dcl\np,
+    t(s:dcl\np, 'woont', [from:7, to:12, lemma:'live', sem:'ENS', wordnet:'live.v.01', verbnet:['Theme']]),
+    fa((s:dcl\np)\(s:dcl\np),
+     t(((s:dcl\np)\(s:dcl\np))/np, 'in', [from:13, to:15, lemma:'in', sem:'REL', wordnet:'O']),
+     fa(np,
+      t(np/n, 'de', [from:16, to:18, lemma:'de', sem:'DEF', wordnet:'O']),
+      fa(n,
+       t(n/pp, 'buurt', [from:19, to:24, lemma:'near', sem:'CON', wordnet:'near.a.01', verbnet:['Location']]),
+       fa(pp,
+        t(pp/np, 'van', [from:25, to:28, lemma:'van', sem:'REL', wordnet:'O']),
+        lx(np, n,
+         t(n, 'Rossville~Blvd', [from:29, to:43, lemma:'rossville~boulevard', sem:'GEO', wordnet:'way.n.06'])))))))),
+  t(s:dcl\s:dcl, '.', [from:43, to:44, lemma:'.', sem:'NIL', wordnet:'O']))).
+

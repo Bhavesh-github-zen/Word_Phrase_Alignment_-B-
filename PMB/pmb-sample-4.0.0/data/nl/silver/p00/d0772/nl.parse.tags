@@ -1,0 +1,18 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ fa(s:wq,
+  t(s:wq/s:q, 'Waarmee', [from:0, to:7, lemma:'entity', sem:'QUE', wordnet:'O', verbnet:['Equal']]),
+  ba(s:q,
+   fa(s:q,
+    fa(s:q/(s:b\np),
+     t((s:q/(s:b\np))/np, 'hebt', [from:8, to:12, lemma:'do', sem:'NOW', wordnet:'O']),
+     t(np, 'ge', [from:13, to:15, lemma:'hearer', sem:'PRO', wordnet:'O'])),
+    ba(s:b\np,
+     t(np, 'het', [from:16, to:19, lemma:'entity', sem:'PRO', wordnet:'entity.n.01']),
+     t((s:b\np)\np, 'geopend', [from:20, to:27, lemma:'geopend', sem:'EXT', wordnet:'O']))),
+   t(s:q\s:q, '?', [from:27, to:28, lemma:'?', sem:'QUE', wordnet:'O'])))).
+

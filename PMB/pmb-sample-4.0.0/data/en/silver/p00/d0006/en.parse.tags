@@ -1,0 +1,30 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   t(n, 'cowgirl', [from:2, to:9, pos:'NN', lemma:'cowgirl', sem:'ROL', wordnet:'cowgirl.n.01'])),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:ng\np), 'is', [from:10, to:12, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    fa(s:ng\np,
+     t((s:ng\np)/np, 'riding', [from:13, to:19, pos:'VBG', lemma:'ride', sem:'EXG', wordnet:'O', verbnet:['Theme','Agent']]),
+     fa(np,
+      t(np/n, 'a', [from:20, to:21, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+      t(n, 'barrel', [from:22, to:28, pos:'NN', lemma:'barrel', sem:'CON', wordnet:'O'])))),
+   fa((s\np)\(s\np),
+    t(((s\np)\(s\np))/np, 'near', [from:29, to:33, pos:'IN', lemma:'near', sem:'APX', wordnet:'O', verbnet:['Location']]),
+    fa(np,
+     t(np/n, 'a', [from:34, to:35, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+     ba(n,
+      t(n, 'horse', [from:36, to:41, pos:'NN', lemma:'horse', sem:'CON', wordnet:'horse.n.01']),
+      fa(n\n,
+       t((n\n)/np, 'in', [from:42, to:44, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+       fa(np,
+        t(np/n, 'the', [from:45, to:48, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+        t(n, 'corner', [from:49, to:55, pos:'NN', lemma:'corner', sem:'CON', wordnet:'O']))))))))).
+

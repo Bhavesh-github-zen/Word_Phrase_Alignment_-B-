@@ -1,0 +1,29 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  lx(np, n,
+   t(n, 'Kate', [from:0, to:4, pos:'NNP', lemma:'kate', sem:'PER', wordnet:'female.n.02'])),
+  fa(s:dcl\np,
+   t((s:dcl\np)/(s:pt\np), 'has', [from:5, to:8, pos:'VBZ', lemma:'have', sem:'NOW', wordnet:'O']),
+   fa(s:pt\np,
+    t((s:pt\np)/np, 'become', [from:9, to:15, pos:'VBN', lemma:'become', sem:'EXT', wordnet:'O', verbnet:['Result','Patient']]),
+    fa(np,
+     t(np/n, 'a', [from:16, to:17, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+     fa(n,
+      t(n/n, 'full', [from:18, to:22, pos:'JJ', lemma:'full', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+      fa(n,
+       t(n/pp, 'member', [from:23, to:29, pos:'NN', lemma:'member', sem:'ROL', wordnet:'O']),
+       fa(pp,
+        t(pp/np, 'of', [from:30, to:32, pos:'IN', lemma:'of', sem:'REL', wordnet:'O', verbnet:['Of']]),
+        rp(np,
+         fa(np,
+          t(np/n, 'the', [from:33, to:36, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+          fa(n,
+           t(n/n, 'royal', [from:37, to:42, pos:'JJ', lemma:'royal', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+           t(n, 'family', [from:43, to:49, pos:'NN', lemma:'family', sem:'CON', wordnet:'O']))),
+         t(., '.', [from:49, to:50, pos:'.', lemma:'.', sem:'NIL', wordnet:'O'])))))))))).
+

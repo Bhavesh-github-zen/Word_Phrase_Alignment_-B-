@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 10 September 2021, 09:36:38)'">
+<!-- Le elezioni~generali in ø Perù del ø 2001 ø ø si sono svolte l' ø 8 aprile ( ø primo turno ) e il 3 giugno ( ø secondo ø turno ) . Sono le prime elezioni dalla ø fine del ø governo dittatoriale ø del presidente Alberto~Fujimori e nella consultazione Alejandro~Toledo ø è risultato come il primo indios ø eletto alla ø massima carica in ø Perù . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Le</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">le</tag>
+     <tag type="lemma">le</tag>
+     <tag type="from">0</tag>
+     <tag type="to">2</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">elezioni~generali</tag>
+     <tag type="cat">n/pp</tag>
+     <tag type="sym">elezioni~generali</tag>
+     <tag type="lemma">elezioni~generali</tag>
+     <tag type="from">3</tag>
+     <tag type="to">20</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="cat">pp/np</tag>
+     <tag type="sym">in</tag>
+     <tag type="lemma">in</tag>
+     <tag type="from">21</tag>
+     <tag type="to">23</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Location]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">24</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Perù</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">perù</tag>
+     <tag type="lemma">perù</tag>
+     <tag type="from">24</tag>
+     <tag type="to">28</tag>
+     <tag type="sem">GPE</tag>
+     <tag type="wordnet">country.n.02</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">del</tag>
+     <tag type="cat">(n\n)/np</tag>
+     <tag type="sym">del</tag>
+     <tag type="lemma">del</tag>
+     <tag type="from">29</tag>
+     <tag type="to">32</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">33</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">2001</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">2001</tag>
+     <tag type="lemma">2001</tag>
+     <tag type="from">33</tag>
+     <tag type="to">37</tag>
+     <tag type="sem">YOC</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:dcl/np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">38</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">si</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">si</tag>
+     <tag type="lemma">si</tag>
+     <tag type="from">38</tag>
+     <tag type="to">40</tag>
+     <tag type="sem">REF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">sono</tag>
+     <tag type="cat">(s:dcl\np)/(s:pss\np)</tag>
+     <tag type="sym">sono</tag>
+     <tag type="lemma">sono</tag>
+     <tag type="from">41</tag>
+     <tag type="to">45</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">svolte</tag>
+     <tag type="cat">s:pss\np</tag>
+     <tag type="sym">svolte</tag>
+     <tag type="lemma">svolte</tag>
+     <tag type="from">46</tag>
+     <tag type="to">52</tag>
+     <tag type="sem">EXT</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="tok">l'</tag>
+     <tag type="cat">((s:pss\np)\(s:pss\np))/np</tag>
+     <tag type="sym">l'</tag>
+     <tag type="lemma">l'</tag>
+     <tag type="from">53</tag>
+     <tag type="to">55</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Time]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">55</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1016">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">8</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">8</tag>
+     <tag type="lemma">8</tag>
+     <tag type="from">55</tag>
+     <tag type="to">56</tag>
+     <tag type="sem">DOM</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1017">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">aprile</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">april</tag>
+     <tag type="lemma">april</tag>
+     <tag type="from">57</tag>
+     <tag type="to">63</tag>
+     <tag type="sem">MOY</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1018">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">(</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/np</tag>
+     <tag type="sym">(</tag>
+     <tag type="lemma">(</tag>
+     <tag type="from">64</tag>
+     <tag type="to">65</tag>
+     <tag type="sem">YOC</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1019">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">65</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1020">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">primo</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">1</tag>
+     <tag type="lemma">1</tag>
+     <tag type="from">65</tag>
+     <tag type="to">70</tag>
+     <tag type="sem">ORD</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1021">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">turno</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">turno</tag>
+     <tag type="lemma">turno</tag>
+     <tag type="from">71</tag>
+     <tag type="to">76</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1022">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">)</tag>
+     <tag type="cat">np\np</tag>
+     <tag type="sym">)</tag>
+     <tag type="lemma">)</tag>
+     <tag type="from">76</tag>
+     <tag type="to">77</tag>
+     <tag type="sem">DEG</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1023">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">e</tag>
+     <tag type="cat">(np\np)/np</tag>
+     <tag type="sym">e</tag>
+     <tag type="lemma">e</tag>
+     <tag type="from">78</tag>
+     <tag type="to">79</tag>
+     <tag type="sem">GRP</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1024">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">il</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">il</tag>
+     <tag type="lemma">il</tag>
+     <tag type="from">80</tag>
+     <tag type="to">82</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1025">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">3</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">3</tag>
+     <tag type="lemma">3</tag>
+     <tag type="from">83</tag>
+     <tag type="to">84</tag>
+     <tag type="sem">QUC</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1026">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">giugno</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">june</tag>
+     <tag type="lemma">june</tag>
+     <tag type="from">85</tag>
+     <tag type="to">91</tag>
+     <tag type="sem">MOY</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1027">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">(</tag>
+     <tag type="cat">(np\np)/np</tag>
+     <tag type="sym">(</tag>
+     <tag type="lemma">(</tag>
+     <tag type="from">92</tag>
+     <tag type="to">93</tag>
+     <tag type="sem">EFS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1028">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(s:dcl/s:dcl)/(s:ng\np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">REL</tag>
+     <tag type="from">93</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1029">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">secondo</tag>
+     <tag type="cat">(s:ng\np)/np</tag>
+     <tag type="sym">2</tag>
+     <tag type="lemma">2</tag>
+     <tag type="from">93</tag>
+     <tag type="to">100</tag>
+     <tag type="sem">ORD</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1030">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">101</tag>
+     <tag type="to">-3</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1031">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">turno</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">turno</tag>
+     <tag type="lemma">turno</tag>
+     <tag type="from">101</tag>
+     <tag type="to">106</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1032">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">)</tag>
+     <tag type="cat">n\n</tag>
+     <tag type="sym">)</tag>
+     <tag type="lemma">)</tag>
+     <tag type="from">106</tag>
+     <tag type="to">107</tag>
+     <tag type="sem">ART</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1033">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">107</tag>
+     <tag type="to">108</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Sono</tag>
+     <tag type="cat">s:dcl/np</tag>
+     <tag type="sym">sono</tag>
+     <tag type="lemma">sono</tag>
+     <tag type="from">109</tag>
+     <tag type="to">113</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">le</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">le</tag>
+     <tag type="lemma">le</tag>
+     <tag type="from">114</tag>
+     <tag type="to">116</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">prime</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">1</tag>
+     <tag type="lemma">1</tag>
+     <tag type="from">117</tag>
+     <tag type="to">122</tag>
+     <tag type="sem">ORD</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">elezioni</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">elezioni</tag>
+     <tag type="lemma">elezioni</tag>
+     <tag type="from">123</tag>
+     <tag type="to">131</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2005">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">dalla</tag>
+     <tag type="cat">(n\n)/np</tag>
+     <tag type="sym">dalla</tag>
+     <tag type="lemma">dalla</tag>
+     <tag type="from">132</tag>
+     <tag type="to">137</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">138</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">fine</tag>
+     <tag type="cat">n/pp</tag>
+     <tag type="sym">fine</tag>
+     <tag type="lemma">fine</tag>
+     <tag type="from">138</tag>
+     <tag type="to">142</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">del</tag>
+     <tag type="cat">pp/np</tag>
+     <tag type="sym">del</tag>
+     <tag type="lemma">del</tag>
+     <tag type="from">143</tag>
+     <tag type="to">146</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">147</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2010">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">governo</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">governo</tag>
+     <tag type="lemma">governo</tag>
+     <tag type="from">147</tag>
+     <tag type="to">154</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">dittatoriale</tag>
+     <tag type="cat">n\n</tag>
+     <tag type="sym">dittatoriale</tag>
+     <tag type="lemma">dittatoriale</tag>
+     <tag type="from">155</tag>
+     <tag type="to">167</tag>
+     <tag type="sem">ENS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:dcl/np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2013">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">del</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">del</tag>
+     <tag type="lemma">del</tag>
+     <tag type="from">168</tag>
+     <tag type="to">171</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2014">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">presidente</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">presidente</tag>
+     <tag type="lemma">presidente</tag>
+     <tag type="from">172</tag>
+     <tag type="to">182</tag>
+     <tag type="sem">ROL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2015">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Alberto~Fujimori</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">alberto~fujimori</tag>
+     <tag type="lemma">alberto~fujimori</tag>
+     <tag type="from">183</tag>
+     <tag type="to">199</tag>
+     <tag type="sem">PER</tag>
+     <tag type="wordnet">male.n.02</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2016">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">e</tag>
+     <tag type="cat">(np\np)/np</tag>
+     <tag type="sym">e</tag>
+     <tag type="lemma">e</tag>
+     <tag type="from">200</tag>
+     <tag type="to">201</tag>
+     <tag type="sem">GRP</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2017">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">nella</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">nella</tag>
+     <tag type="lemma">nella</tag>
+     <tag type="from">202</tag>
+     <tag type="to">207</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2018">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">consultazione</tag>
+     <tag type="cat">(s:dcl\np)/np</tag>
+     <tag type="sym">consultazione</tag>
+     <tag type="lemma">consultazione</tag>
+     <tag type="from">208</tag>
+     <tag type="to">221</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2019">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Alejandro~Toledo</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">alejandro~toledo</tag>
+     <tag type="lemma">alejandro~toledo</tag>
+     <tag type="from">222</tag>
+     <tag type="to">238</tag>
+     <tag type="sem">PER</tag>
+     <tag type="wordnet">male.n.02</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2020">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:dcl/np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2021">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">è</tag>
+     <tag type="cat">(s:dcl\np)/(s:pt\np)</tag>
+     <tag type="sym">è</tag>
+     <tag type="lemma">è</tag>
+     <tag type="from">239</tag>
+     <tag type="to">240</tag>
+     <tag type="sem">ENS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2022">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">risultato</tag>
+     <tag type="cat">(s:pt\np)/pp</tag>
+     <tag type="sym">risultato</tag>
+     <tag type="lemma">risultato</tag>
+     <tag type="from">241</tag>
+     <tag type="to">250</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2023">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">come</tag>
+     <tag type="cat">pp/np</tag>
+     <tag type="sym">come</tag>
+     <tag type="lemma">come</tag>
+     <tag type="from">251</tag>
+     <tag type="to">255</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2024">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">il</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">il</tag>
+     <tag type="lemma">il</tag>
+     <tag type="from">256</tag>
+     <tag type="to">258</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2025">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">primo</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">primo</tag>
+     <tag type="lemma">primo</tag>
+     <tag type="from">259</tag>
+     <tag type="to">264</tag>
+     <tag type="sem">ORD</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2026">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">indios</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">indios</tag>
+     <tag type="lemma">indios</tag>
+     <tag type="from">265</tag>
+     <tag type="to">271</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2027">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:pss\np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">272</tag>
+     <tag type="to">-3</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2028">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">eletto</tag>
+     <tag type="cat">s:pss\np</tag>
+     <tag type="sym">eletto</tag>
+     <tag type="lemma">eletto</tag>
+     <tag type="from">272</tag>
+     <tag type="to">278</tag>
+     <tag type="sem">EXS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2029">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">alla</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/np</tag>
+     <tag type="sym">alla</tag>
+     <tag type="lemma">alla</tag>
+     <tag type="from">279</tag>
+     <tag type="to">283</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2030">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">284</tag>
+     <tag type="to">-3</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2031">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">massima</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">massima</tag>
+     <tag type="lemma">massima</tag>
+     <tag type="from">284</tag>
+     <tag type="to">291</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2032">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">carica</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">carica</tag>
+     <tag type="lemma">carica</tag>
+     <tag type="from">292</tag>
+     <tag type="to">298</tag>
+     <tag type="sem">IST</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2033">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">in</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/np</tag>
+     <tag type="sym">in</tag>
+     <tag type="lemma">in</tag>
+     <tag type="from">299</tag>
+     <tag type="to">301</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2034">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="from">302</tag>
+     <tag type="to">-3</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2035">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Perù</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">perù</tag>
+     <tag type="lemma">perù</tag>
+     <tag type="from">302</tag>
+     <tag type="to">306</tag>
+     <tag type="sem">GPE</tag>
+     <tag type="wordnet">country.n.02</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i2036">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">306</tag>
+     <tag type="to">307</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <sdrs>
+  <constituents>
+   <constituent label="b1">
+    <tokens>
+     <token>Le</token>
+     <token>elezioni~generali</token>
+     <token>in</token>
+     <token>Perù</token>
+     <token>del</token>
+     <token>2001</token>
+     <token>si</token>
+     <token>sono</token>
+     <token>svolte</token>
+     <token>l'</token>
+     <token>8</token>
+     <token>aprile</token>
+     <token>(</token>
+     <token>primo</token>
+     <token>turno</token>
+     <token>)</token>
+     <token>e</token>
+     <token>il</token>
+     <token>3</token>
+     <token>giugno</token>
+     <token>(</token>
+     <token>secondo</token>
+     <token>turno</token>
+     <token>)</token>
+     <token>.</token>
+    </tokens>
+    <drs label="b1">
+     <domain>
+      <dr label="b1" name="t1" from="0" to="0"></dr>
+      <dr label="b1" name="x1" from="0" to="2"></dr>
+      <dr label="b2" name="x2" from="24" to="-1"></dr>
+      <dr label="b1" name="x3" from="0" to="0"></dr>
+      <dr label="b3" name="x4" from="101" to="-3"></dr>
+      <dr label="b4" name="x5" from="106" to="107"></dr>
+      <dr label="b1" name="s1" from="93" to="100"></dr>
+      <dr label="b1" name="x6" from="38" to="-2"></dr>
+      <dr label="b1" name="e1" from="46" to="52"></dr>
+      <dr label="b1" name="t2" from="46" to="52"></dr>
+      <dr label="b1" name="x7" from="65" to="-2"></dr>
+      <dr label="b1" name="e2" from="0" to="0"></dr>
+     </domain>
+     <conds>
+      <cond label="b1">
+       <pred arg="x1" symbol="elezioni~generali" synset="elezioni~generali.n.01" from="3" to="20"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="x1" arg2="t1" symbol="Theme" framenet="Theme" from="29" to="32"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="x1" arg2="x2" symbol="Location" framenet="Containing@Container" from="21" to="23"></rel>
+      </cond>
+      <cond label="b2">
+       <pred arg="x2" symbol="country" synset="country.n.02" from="24" to="28"></pred>
+      </cond>
+      <cond label="b2">
+       <named arg="x2" symbol="perù" from="24" to="28"></named>
+      </cond>
+      <cond label="b1">
+       <pred arg="t1" symbol="time" synset="time.n.08" from="0" to="0"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="t1" arg2="06" symbol="MonthOfYear" framenet="MonthOfYear" from="85" to="91"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="t1" arg2="3" symbol="Quantity" framenet="Quantity" from="83" to="84"></rel>
+      </cond>
+      <cond label="b1">
+       <comp symbol="EQU" arg1="t1" arg2="now" from="41" to="45"></comp>
+      </cond>
+      <cond label="b1">
+       <rel arg1="t1" arg2="04" symbol="MonthOfYear" framenet="MonthOfYear" from="57" to="63"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="t1" arg2="08" symbol="DayOfMonth" framenet="DayOfMonth" from="55" to="56"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="t1" arg2="2001" symbol="YearOfCentury" framenet="YearOfCentury" from="33" to="37"></rel>
+      </cond>
+      <cond label="b1">
+       <pred arg="x6" symbol="entity" synset="entity.n.01" from="38" to="40"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="x6" arg2="x1" symbol="Participant" framenet="Participant" from="92" to="93"></rel>
+      </cond>
+      <cond label="b1">
+       <pred arg="e1" symbol="svolte" synset="svolte.v.01" from="46" to="52"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e1" arg2="s1" symbol="Participant" framenet="Participant" from="0" to="0"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e1" arg2="x7" symbol="Instrument" framenet="Carry_goods@Distributor" from="64" to="65"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e1" arg2="t1" symbol="Time" framenet="Time" from="0" to="0"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e1" arg2="t2" symbol="Time" framenet="Time" from="46" to="52"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e1" arg2="x6" symbol="Theme" framenet="Placing@Theme" from="46" to="52"></rel>
+      </cond>
+      <cond label="b1">
+       <pred arg="t2" symbol="time" synset="time.n.08" from="46" to="52"></pred>
+      </cond>
+      <cond label="b1">
+       <comp symbol="TPR" arg1="t2" arg2="now" from="46" to="52"></comp>
+      </cond>
+      <cond label="b1">
+       <pred arg="x7" symbol="turno" synset="turno.n.01" from="71" to="76"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="x7" arg2="t1" symbol="Participant" framenet="Participant" from="78" to="79"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="x7" arg2="1" symbol="Order" framenet="Order" from="65" to="70"></rel>
+      </cond>
+      <cond label="b1">
+       <pred arg="s1" symbol="2" synset="2.a.01" from="93" to="100"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="s1" arg2="x4" symbol="Theme" framenet="Theme" from="93" to="100"></rel>
+      </cond>
+      <cond label="b1">
+       <rel arg1="s1" arg2="x3" symbol="Agent" framenet="Agent" from="93" to="100"></rel>
+      </cond>
+      <cond label="b3">
+       <pred arg="x4" symbol="turno" synset="turno.n.01" from="101" to="106"></pred>
+      </cond>
+      <cond label="b3">
+       <rel arg1="x4" arg2="x5" symbol="Theme" framenet="Theme" from="106" to="107"></rel>
+      </cond>
+      <cond label="b4">
+       <pred arg="x5" symbol="entity" synset="entity.n.01" from="106" to="107"></pred>
+      </cond>
+      <cond label="b4">
+       <named arg="x5" symbol=")" from="106" to="107"></named>
+      </cond>
+      <cond label="b1">
+       <pred arg="x3" symbol="entity" synset="entity.n.01" from="0" to="0"></pred>
+      </cond>
+      <cond label="b1">
+       <pred arg="e2" symbol="event" synset="event.v.01" from="0" to="0"></pred>
+      </cond>
+      <cond label="b1">
+       <rel arg1="e2" arg2="x1" symbol="Participant" framenet="Participant" from="0" to="0"></rel>
+      </cond>
+     </conds>
+    </drs>
+   </constituent>
+   <constituent label="b5">
+    <tokens>
+     <token>Sono</token>
+     <token>le</token>
+     <token>prime</token>
+     <token>elezioni</token>
+     <token>dalla</token>
+     <token>fine</token>
+     <token>del</token>
+     <token>governo</token>
+     <token>del</token>
+     <token>presidente</token>
+     <token>Alberto~Fujimori</token>
+     <token>e</token>
+     <token>nella</token>
+     <token>consultazione</token>
+     <token>Alejandro~Toledo</token>
+     <token>è</token>
+     <token>risultato</token>
+     <token>come</token>
+     <token>il</token>
+     <token>primo</token>
+     <token>indios</token>
+     <token>eletto</token>
+     <token>alla</token>
+     <token>massima</token>
+     <token>carica</token>
+     <token>in</token>
+     <token>Perù</token>
+     <token>.</token>
+    </tokens>
+    <drs label="b5">
+     <domain>
+      <dr label="b5" name="x8" from="0" to="0"></dr>
+      <dr label="b5" name="x9" from="114" to="116"></dr>
+      <dr label="b6" name="x10" from="168" to="171"></dr>
+      <dr label="b6" name="x11" from="172" to="182"></dr>
+      <dr label="b5" name="x12" from="202" to="207"></dr>
+      <dr label="b5" name="x13" from="284" to="-3"></dr>
+      <dr label="b5" name="x14" from="284" to="291"></dr>
+      <dr label="b5" name="s2" from="292" to="298"></dr>
+      <dr label="b5" name="e3" from="239" to="240"></dr>
+      <dr label="b5" name="e4" from="241" to="250"></dr>
+      <dr label="b7" name="x15" from="256" to="258"></dr>
+      <dr label="b7" name="e5" from="272" to="278"></dr>
+      <dr label="b1" name="t1" from="239" to="240"></dr>
+      <dr label="b2" name="x2" from="302" to="-3"></dr>
+      <dr label="b5" name="e6" from="208" to="221"></dr>
+      <dr label="b5" name="s3" from="109" to="113"></dr>
+     </domain>
+     <conds>
+      <cond label="b5">
+       <pred arg="s3" symbol="sono" synset="sono.a.01" from="109" to="113"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="s3" arg2="x9" symbol="Theme" framenet="Theme" from="109" to="113"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="x9" symbol="elezioni" synset="elezioni.n.01" from="123" to="131"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="x9" arg2="x8" symbol="Theme" framenet="Theme" from="132" to="137"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="x9" arg2="1" symbol="Order" framenet="Order" from="117" to="122"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="x8" symbol="fine" synset="fine.n.01" from="138" to="142"></pred>
+      </cond>
+      <cond label="b5">
+       <pred arg="x8" symbol="governo" synset="governo.n.01" from="147" to="154"></pred>
+      </cond>
+      <cond label="b6">
+       <pred arg="x10" symbol="male" synset="male.n.02" from="183" to="199"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="x10" arg2="x9" symbol="Participant" framenet="Participant" from="200" to="201"></rel>
+      </cond>
+      <cond label="b6">
+       <named arg="x10" symbol="alberto~fujimori" from="183" to="199"></named>
+      </cond>
+      <cond label="b6">
+       <rel arg1="x10" arg2="x11" symbol="Theme" framenet="Theme" from="172" to="182"></rel>
+      </cond>
+      <cond label="b6">
+       <pred arg="x11" symbol="presidente" synset="presidente.n.01" from="172" to="182"></pred>
+      </cond>
+      <cond label="b5">
+       <pred arg="e6" symbol="consultazione" synset="consultazione.v.01" from="208" to="221"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e6" arg2="x12" symbol="Theme" framenet="Placing@Theme" from="208" to="221"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e6" arg2="x10" symbol="Agent" framenet="Placing@Agent" from="208" to="221"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="x12" symbol="male" synset="male.n.02" from="222" to="238"></pred>
+      </cond>
+      <cond label="b5">
+       <named arg="x12" symbol="alejandro~toledo" from="222" to="238"></named>
+      </cond>
+      <cond label="b1">
+       <pred arg="t1" symbol="time" synset="time.n.08" from="239" to="240"></pred>
+      </cond>
+      <cond label="b1">
+       <comp symbol="EQU" arg1="t1" arg2="now" from="239" to="240"></comp>
+      </cond>
+      <cond label="b5">
+       <pred arg="e3" symbol="è" synset="è.v.01" from="239" to="240"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e3" arg2="x2" symbol="Instrument" framenet="Apply_heat@Heating_instrument" from="299" to="301"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e3" arg2="x12" symbol="Instrument" framenet="Carry_goods@Distributor" from="279" to="283"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e3" arg2="t1" symbol="Time" framenet="Time" from="239" to="240"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e3" arg2="e4" symbol="Topic" framenet="Topic" from="239" to="240"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e3" arg2="x13" symbol="Agent" framenet="Agent" from="239" to="240"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="e4" symbol="risultato" synset="risultato.v.01" from="241" to="250"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e4" arg2="x15" symbol="Theme" framenet="Coming_to_be@Entity" from="251" to="255"></rel>
+      </cond>
+      <cond label="b5">
+       <rel arg1="e4" arg2="x13" symbol="Agent" framenet="Placing@Agent" from="241" to="250"></rel>
+      </cond>
+      <cond label="b7">
+       <pred arg="x15" symbol="indios" synset="indios.n.01" from="265" to="271"></pred>
+      </cond>
+      <cond label="b7">
+       <rel arg1="x15" arg2="primo" symbol="Order" framenet="Order" from="259" to="264"></rel>
+      </cond>
+      <cond label="b7">
+       <pred arg="e5" symbol="eletto" synset="eletto.v.01" from="272" to="278"></pred>
+      </cond>
+      <cond label="b7">
+       <rel arg1="e5" arg2="x15" symbol="Theme" framenet="Placing@Theme" from="272" to="278"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="x14" symbol="massima" synset="massima.n.01" from="284" to="291"></pred>
+      </cond>
+      <cond label="b5">
+       <pred arg="x13" symbol="entity" synset="entity.n.01" from="292" to="298"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="x13" arg2="x14" symbol="Theme" framenet="Theme" from="284" to="291"></rel>
+      </cond>
+      <cond label="b5">
+       <pred arg="s2" symbol="carica" synset="carica.a.01" from="292" to="298"></pred>
+      </cond>
+      <cond label="b5">
+       <rel arg1="s2" arg2="x13" symbol="AttributeOf" framenet="AttributeOf" from="292" to="298"></rel>
+      </cond>
+      <cond label="b2">
+       <pred arg="x2" symbol="country" synset="country.n.02" from="302" to="306"></pred>
+      </cond>
+      <cond label="b2">
+       <named arg="x2" symbol="perù" from="302" to="306"></named>
+      </cond>
+     </conds>
+    </drs>
+   </constituent>
+  </constituents>
+  <relations>
+   <drel arg1="b1" arg2="b5" sym="CONTINUATION" from="109" to="-1"></drel>
+  </relations>
+ </sdrs>
+</xdrs>
+</xdrs-output>

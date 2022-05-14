@@ -1,0 +1,24 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Yunus', [from:0, to:5, lemma:'yunus', sem:'PER', wordnet:'male.n.02'])),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     t((s:dcl\np)/np, 'fondò', [from:6, to:11, lemma:'found', sem:'EPS', wordnet:'found.v.01', verbnet:['Theme','Agent']]),
+     fa(np,
+      t(np/n, 'la', [from:12, to:14, lemma:'the', sem:'DEF', wordnet:'O']),
+      t(n, 'Grameen~Bank', [from:15, to:27, lemma:'grameen~bank', sem:'ORG', wordnet:'company.n.01']))),
+    ba((s:dcl\np)\(s:dcl\np),
+     lx(np, n,
+      fa(n,
+       t(n/n, '30', [from:28, to:30, lemma:'30', sem:'QUC', wordnet:'O', verbnet:['Quantity']]),
+       t(n, 'anni', [from:31, to:35, lemma:'year', sem:'UOM', wordnet:'year.n.01']))),
+     t(((s:dcl\np)\(s:dcl\np))\np, 'fa', [from:36, to:38, lemma:'ago', sem:'PST', wordnet:'O'])))),
+  t(s:dcl\s:dcl, '.', [from:38, to:39, lemma:'.', sem:'NIL', wordnet:'O']))).
+

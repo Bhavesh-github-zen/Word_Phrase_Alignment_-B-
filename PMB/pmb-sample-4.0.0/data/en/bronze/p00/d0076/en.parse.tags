@@ -1,0 +1,36 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  lx(np, n,
+   t(n, 'Bill', [from:0, to:4, pos:'NNP', lemma:'bill', sem:'PER', wordnet:'male.n.02'])),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/pr, 'got', [from:5, to:8, pos:'VBD', lemma:'get', sem:'EPS', wordnet:'O', verbnet:['Agent']]),
+    t(pr, 'up', [from:9, to:11, pos:'RP', lemma:'up', sem:'REL', wordnet:'O'])),
+   fa((s\np)\(s\np),
+    t(((s\np)\(s\np))/pp, 'early', [from:12, to:17, pos:'RB', lemma:'early', sem:'IST', wordnet:'O', verbnet:['Manner']]),
+    fa(pp,
+     t(pp/np, 'in', [from:18, to:20, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Theme']]),
+     lx(np, n,
+      fa(n,
+       t(n/s:em, 'order', [from:21, to:26, pos:'NN', lemma:'order', sem:'CON', wordnet:'O']),
+       fa(s:em,
+        t(s:em/s:dcl, 'that', [from:27, to:31, pos:'IN', lemma:'that', sem:'SUB', wordnet:'O']),
+        ba(s:dcl,
+         t(np, 'he', [from:32, to:34, pos:'PRP', lemma:'male', sem:'PRO', wordnet:'male.n.02']),
+         fa(s:dcl\np,
+          t((s:dcl\np)/(s:b\np), 'might', [from:35, to:40, pos:'MD', lemma:'might', sem:'POS', wordnet:'O']),
+          fa(s:b\np,
+           t((s:b\np)/np, 'catch', [from:41, to:46, pos:'VB', lemma:'catch', sem:'EXS', wordnet:'O', verbnet:['Theme','Agent']]),
+           rp(np,
+            fa(np,
+             t(np/n, 'the', [from:47, to:50, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+             fa(n,
+              t(n/n, 'first', [from:51, to:56, pos:'JJ', lemma:'1', sem:'ORD', wordnet:'O']),
+              t(n, 'train', [from:57, to:62, pos:'NN', lemma:'train', sem:'CON', wordnet:'O']))),
+            t(., '.', [from:62, to:63, pos:'.', lemma:'.', sem:'NIL', wordnet:'O']))))))))))))).
+

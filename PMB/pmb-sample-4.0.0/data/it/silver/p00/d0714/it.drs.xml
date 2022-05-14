@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- ø Terminali informatici sono usati per fornire ø informazioni mediche . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="tok">Terminali</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">computer</tag>
+     <tag type="lemma">computer</tag>
+     <tag type="from">0</tag>
+     <tag type="to">9</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">computer.n.01</tag>
+     <tag type="verbnet" n="1">[Theme]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">informatici</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">terminal</tag>
+     <tag type="lemma">terminal</tag>
+     <tag type="from">10</tag>
+     <tag type="to">21</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">sono</tag>
+     <tag type="cat">(s:dcl\np)/(s:pss\np)</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">22</tag>
+     <tag type="to">26</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">usati</tag>
+     <tag type="cat">(s:pss\np)/(s:to\np)</tag>
+     <tag type="sym">use</tag>
+     <tag type="lemma">use</tag>
+     <tag type="from">27</tag>
+     <tag type="to">32</tag>
+     <tag type="sem">IST</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="2">[Recipient,Topic]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">per</tag>
+     <tag type="cat">(s:to\np)/(s:b\np)</tag>
+     <tag type="sym">to</tag>
+     <tag type="lemma">to</tag>
+     <tag type="from">33</tag>
+     <tag type="to">36</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="tok">fornire</tag>
+     <tag type="cat">(s:b\np)/np</tag>
+     <tag type="sym">provide</tag>
+     <tag type="lemma">provide</tag>
+     <tag type="from">37</tag>
+     <tag type="to">44</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="2">[Theme,Agent]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">45</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">informazioni</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">information</tag>
+     <tag type="lemma">information</tag>
+     <tag type="from">45</tag>
+     <tag type="to">57</tag>
+     <tag type="sem">QUC</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">mediche</tag>
+     <tag type="cat">n\n</tag>
+     <tag type="sym">health</tag>
+     <tag type="lemma">health</tag>
+     <tag type="from">58</tag>
+     <tag type="to">65</tag>
+     <tag type="sem">UOM</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[MadeOf]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">65</tag>
+     <tag type="to">66</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+   <dr label="b1" name="x1" from="0" to="-1"></dr>
+   <dr label="b1" name="s1" from="27" to="32"></dr>
+   <dr label="b1" name="x2" from="45" to="-1"></dr>
+   <dr label="b1" name="e1" from="37" to="44"></dr>
+   <dr label="b1" name="t1" from="22" to="26"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="x1" symbol="terminal" synset="terminal.n.01" from="10" to="21"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="t1" symbol="time" synset="time.n.08" from="22" to="26"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="t1" arg2="now" from="22" to="26"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="s1" symbol="use" synset="use.a.01" from="27" to="32"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="s1" arg2="t1" symbol="Time" framenet="Time" from="22" to="26"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="s1" arg2="e1" symbol="Recipient" framenet="Recipient" from="27" to="32"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="s1" arg2="x1" symbol="Topic" framenet="Topic" from="27" to="32"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="e1" symbol="provide" synset="provide.v.01" from="37" to="44"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x2" symbol="Theme" framenet="Commerce_collect@Goods" from="37" to="44"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x1" symbol="Agent" framenet="Commerce_collect@Buyer" from="37" to="44"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x2" symbol="entity" synset="entity.n.01" from="45" to="57"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="x2" arg2="information" from="45" to="57"></comp>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

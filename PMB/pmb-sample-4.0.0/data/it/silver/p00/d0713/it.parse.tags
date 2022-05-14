@@ -1,0 +1,30 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    fa(n,
+     t(n/n, 'Cinque', [from:0, to:6, lemma:'5', sem:'QUC', wordnet:'O', verbnet:['Quantity']]),
+     t(n, 'uomini', [from:7, to:13, lemma:'man', sem:'CON', wordnet:'man.n.01']))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:pt\np), 'sono', [from:14, to:18, lemma:'have', sem:'ENS', wordnet:'O']),
+    fa(s:pt\np,
+     t((s:pt\np)/(s:pss\np), 'stati', [from:19, to:24, lemma:'be', sem:'QUC', wordnet:'O']),
+     ba(s:pss\np,
+      t(s:pss\np, 'uccisi', [from:25, to:31, lemma:'kill', sem:'UOM', wordnet:'kill.v.01', verbnet:['Patient']]),
+      fa((s:pss\np)\(s:pss\np),
+       t(((s:pss\np)\(s:pss\np))/np, 'da', [from:32, to:34, lemma:'by', sem:'REL', wordnet:'O', verbnet:['Agent']]),
+       fa(np,
+        t(np/n, 'un', [from:35, to:37, lemma:'a', sem:'DIS', wordnet:'O']),
+        ba(n,
+         t(n, 'serial~killer', [from:38, to:51, lemma:'serial~killer', sem:'ROL', wordnet:'serial_killer.n.01']),
+         fa(n\n,
+          t((n\n)/np, 'a', [from:52, to:53, lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+          lx(np, n,
+           t(n, 'Mumbai', [from:54, to:60, lemma:'mumbai', sem:'GPE', wordnet:'city.n.01'])))))))))),
+  t(s:dcl\s:dcl, '.', [from:60, to:61, lemma:'.', sem:'NIL', wordnet:'O']))).
+

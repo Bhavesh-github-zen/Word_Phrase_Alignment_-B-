@@ -1,0 +1,28 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ fa(np,
+  t(np/(s:dcl/np), 'What', [from:0, to:4, pos:'WP', lemma:'entity', sem:'QUE', wordnet:'O', verbnet:['Equal']]),
+  fc(s:dcl/np,
+   lx(s:X/(s:X\np), np,
+    lx(np, n,
+     t(n, 'Tom', [from:5, to:8, pos:'NNP', lemma:'tom', sem:'PER', wordnet:'male.n.02']))),
+   fa((s:dcl\np)/np,
+    t(((s:dcl\np)/np)/(s:dcl\np), 'said', [from:9, to:13, pos:'VBD', lemma:'say', sem:'EPS', wordnet:'O', verbnet:['Topic','Agent']]),
+    fa(s:dcl\np,
+     bxc((s:dcl\np)/(s:b\np),
+      t((s:dcl\np)/(s:b\np), 'does', [from:14, to:18, pos:'VBZ', lemma:'do', sem:'NOW', wordnet:'O']),
+      t((s\np)\(s\np), 'n\'t', [from:18, to:21, pos:'RB', lemma:'not', sem:'NOT', wordnet:'O'])),
+     fa(s:b\np,
+      t((s:b\np)/pp, 'apply', [from:22, to:27, pos:'VB', lemma:'apply', sem:'EXS', wordnet:'O', verbnet:['Agent']]),
+      fa(pp,
+       t(pp/np, 'in', [from:28, to:30, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+       rp(np,
+        fa(np,
+         t(np/n, 'this', [from:31, to:35, pos:'DT', lemma:'this', sem:'PRX', wordnet:'O']),
+         t(n, 'situation', [from:36, to:45, pos:'NN', lemma:'situation', sem:'CON', wordnet:'O'])),
+        t(., '.', [from:45, to:46, pos:'.', lemma:'.', sem:'NIL', wordnet:'O']))))))))).
+

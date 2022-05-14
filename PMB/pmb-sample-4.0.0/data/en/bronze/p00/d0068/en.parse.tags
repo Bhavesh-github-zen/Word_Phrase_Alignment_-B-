@@ -1,0 +1,37 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  t(np, 'I', [from:0, to:1, pos:'PRP', lemma:'speaker', sem:'PRO', wordnet:'O']),
+  fa(s:dcl\np,
+   t((s\np)/(s\np), 'also', [from:2, to:6, pos:'RB', lemma:'also', sem:'ALT', wordnet:'O']),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'brought', [from:7, to:14, pos:'VBD', lemma:'bring', sem:'EPS', wordnet:'O', verbnet:['Theme','Agent']]),
+    fa(np,
+     t(np/n, 'some', [from:15, to:19, pos:'DT', lemma:'some', sem:'DIS', wordnet:'O']),
+     ba(n,
+      t(n, 'gruel', [from:20, to:25, pos:'NN', lemma:'gruel', sem:'CON', wordnet:'O']),
+      lx(n\n, s:dcl/np,
+       fc(s:dcl/np,
+        lx(s:X/(s:X\np), np,
+         t(np, 'I', [from:26, to:27, pos:'PRP', lemma:'speaker', sem:'PRO', wordnet:'O'])),
+        rp((s:dcl\np)/np,
+         t((s:dcl\np)/np, 'made', [from:28, to:32, pos:'VBD', lemma:'make', sem:'EPS', wordnet:'O', verbnet:['Theme','Agent']]),
+         t(., '.', [from:32, to:33, pos:'.', lemma:'.', sem:'NIL', wordnet:'O'])))))))))).
+
+ccg(2,
+ rp(s:dcl,
+  ba(s:dcl,
+   t(np, 'It', [from:34, to:36, pos:'PRP', lemma:'entity', sem:'PRO', wordnet:'O']),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     t((s\np)/(s\np), 'just', [from:37, to:41, pos:'RB', lemma:'just', sem:'XCL', wordnet:'O']),
+     fa(s:dcl\np,
+      t((s:dcl\np)/(s:ng\np), 'needs', [from:42, to:47, pos:'VBZ', lemma:'need', sem:'ENS', wordnet:'O', verbnet:['Theme','Pivot']]),
+      t(s:ng\np, 'warming', [from:48, to:55, pos:'VBG', lemma:'warm', sem:'EXG', wordnet:'O', verbnet:['Theme']]))),
+    t((s\np)\(s\np), 'up', [from:56, to:58, pos:'RP', lemma:'up', sem:'REL', wordnet:'O']))),
+  t(., '.', [from:58, to:59, pos:'.', lemma:'.', sem:'NIL', wordnet:'O']))).
+

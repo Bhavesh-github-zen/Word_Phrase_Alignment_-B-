@@ -1,0 +1,26 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  lx(np, n,
+   ba(n,
+    t(n, 'Letters', [from:0, to:7, pos:'NNS', lemma:'letter', sem:'CON', wordnet:'O']),
+    fa(n\n,
+     t((n\n)/np, 'from', [from:8, to:12, pos:'IN', lemma:'from', sem:'REL', wordnet:'O', verbnet:['Source']]),
+     lx(np, n,
+      t(n, 'Fiona', [from:13, to:18, pos:'NNP', lemma:'fiona', sem:'GPE', wordnet:'O']))))),
+  fa(s:dcl\np,
+   bxc((s:dcl\np)/(s:adj\np),
+    t((s:dcl\np)/(s:adj\np), 'came', [from:19, to:23, pos:'VBD', lemma:'come', sem:'EPS', wordnet:'O']),
+    t((s\np)\(s\np), 'gradually', [from:24, to:33, pos:'RB', lemma:'gradually', sem:'INT', wordnet:'O'])),
+   ba(s:adj\np,
+    t(s:adj\np, 'less', [from:34, to:38, pos:'RBR', lemma:'less', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+    rp((s:adj\np)\(s:adj\np),
+     conj((s:adj\np)\(s:adj\np),
+      t(conj, 'and', [from:39, to:42, pos:'CC', lemma:'and', sem:'COO', wordnet:'O']),
+      t(s:adj\np, 'less', [from:43, to:47, pos:'RBR', lemma:'less', sem:'IST', wordnet:'O', verbnet:['Attribute']])),
+     t(., '.', [from:47, to:48, pos:'.', lemma:'.', sem:'NIL', wordnet:'O'])))))).
+

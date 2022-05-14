@@ -1,0 +1,40 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/np, '>Der', [from:0, to:4, lemma:'the', sem:'HAS', wordnet:'O']),
+    lx(np, n,
+     ba(n,
+      fa(n,
+       t(n/pp, 'Streit', [from:5, to:11, lemma:'dispute', sem:'CON', wordnet:'O']),
+       fa(pp,
+        t(pp/np, 'zwischen', [from:12, to:20, lemma:'between', sem:'REL', wordnet:'O', verbnet:['Destination']]),
+        ba(np,
+         lx(np, n,
+          t(n, 'Albanien', [from:21, to:29, lemma:'albania', sem:'CON', wordnet:'O'])),
+         fa(np\np,
+          t((np\np)/np, 'und', [from:30, to:33, lemma:'and', sem:'GRP', wordnet:'O']),
+          fa(np,
+           t(np/n, 'dem', [from:34, to:37, lemma:'the', sem:'DEF', wordnet:'O']),
+           t(n, 'Vereinigten~Königreich', [from:38, to:60, lemma:'uk', sem:'CON', wordnet:'O'])))))),
+      fa(n\n,
+       t((n\n)/np, 'über', [from:61, to:65, lemma:'about', sem:'REL', wordnet:'O', verbnet:['Topic']]),
+       fa(np,
+        t(np/n, 'den', [from:66, to:69, lemma:'the', sem:'DEF', wordnet:'O']),
+        t(n, 'Korfu-Vorfall', [from:70, to:83, lemma:'korfu-vorfall', sem:'CON', wordnet:'O'])))))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'hielt', [from:84, to:89, lemma:'last', sem:'EPS', wordnet:'O', verbnet:['Theme','Agent']]),
+    lx(np, n,
+     fa(n,
+      t(n/n, 'lange', [from:90, to:95, lemma:'long', sem:'DEG', wordnet:'O', verbnet:['Attribute']]),
+      ba(n,
+       t(n, 'Zeit', [from:96, to:100, lemma:'time', sem:'CON', wordnet:'O']),
+       lx(n\n, s:adj\np,
+        t(s:adj\np, 'an', [from:101, to:103, lemma:'an', sem:'REL', wordnet:'O']))))))),
+  t(s:dcl\s:dcl, '.', [from:103, to:104, lemma:'.', sem:'NIL', wordnet:'O']))).
+

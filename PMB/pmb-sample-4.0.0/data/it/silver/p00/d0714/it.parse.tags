@@ -1,0 +1,26 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    fa(n,
+     t(n/n, 'Terminali', [from:0, to:9, lemma:'computer', sem:'DEF', wordnet:'computer.n.01', verbnet:['Theme']]),
+     t(n, 'informatici', [from:10, to:21, lemma:'terminal', sem:'CON', wordnet:'O']))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:pss\np), 'sono', [from:22, to:26, lemma:'be', sem:'NOW', wordnet:'O']),
+    fa(s:pss\np,
+     t((s:pss\np)/(s:to\np), 'usati', [from:27, to:32, lemma:'use', sem:'IST', wordnet:'O', verbnet:['Recipient','Topic']]),
+     fa(s:to\np,
+      t((s:to\np)/(s:b\np), 'per', [from:33, to:36, lemma:'to', sem:'REL', wordnet:'O']),
+      fa(s:b\np,
+       t((s:b\np)/np, 'fornire', [from:37, to:44, lemma:'provide', sem:'CON', wordnet:'O', verbnet:['Theme','Agent']]),
+       lx(np, n,
+        ba(n,
+         t(n, 'informazioni', [from:45, to:57, lemma:'information', sem:'QUC', wordnet:'O']),
+         t(n\n, 'mediche', [from:58, to:65, lemma:'health', sem:'UOM', wordnet:'O', verbnet:['MadeOf']])))))))),
+  t(s:dcl\s:dcl, '.', [from:65, to:66, lemma:'.', sem:'NIL', wordnet:'O']))).
+

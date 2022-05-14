@@ -1,0 +1,80 @@
+(Ref: https://pmb.let.rug.nl/drs.php) 
+
+
+Parallel Meaning Bank logo
+
+About
+
+PMB Explorer
+
+Shared Tasks
+
+Manual
+
+Phenomena
+
+Data
+
+Software
+
+Publications
+
+People
+Discourse Representation Structure
+Discourse Representation Structures (DRSs) can be displayed in different formats. In the PMB we use two different formats: the box format, used for visualisation purposes; and the clause format, used for evaluation purposes.
+
+Discourse Representation Structures (box notation)
+
+There are basic and complex DRS-conditions. Terms are either variables or constants. Basic DRS-conditions are defined as follows:
+
+    If SYM is a non-logical symbol, SNS a sense, and x is a term then SYM.SNS(x) is a basic DRS-condition (wordnet concepts);
+    If ROL is a symbol denoting a VerbNet role and x and y are terms then ROL(x,y) is a basic DRS-condition (thematic roles);
+    If x and y are terms then x=y, x≠y, x≈y, x<y, x>y, x≤y, x≥y, x≺y, x≻y, x⋈y are basic DRS-conditions (comparison operators).
+
+The complex DRS-conditions are defined as follows:
+
+    If B is a DRS, then ¬B, ◇B, and □B are complex DRS-conditions (negation and modals);
+    If x is a variable, and B is a DRS, then x:B is a complex condition (propositional);
+    If B and B' are DRSs, then B⇒B' and B∨B' are complex conditions (implication and disjunction).
+
+A DRS is defined as follows:
+
+    If D is a (possibly empty) set of discourse referents, and C a (possibly empty) set of DRS-conditions, then <D,C> is a (basic) DRS;
+    If B is a (basic) DRS, and B' a DRS, then B↓B' is a (segmented) DRS;
+    If U is a set of DRSs, and R a set of discourse relations, then <U,R> is a (segmented) DRS.
+
+Discourse Representation Structures (clause notation)
+
+A DRS in clause notation is an unordered set of clauses that describe a DRS. The first argument of a clause is always a variable for a DRS. The second argument determines the type of the clause. The third and fourth argument are always variables or constants (constants are enclosed in double quotes). The following clauses are permitted:
+
+Clause Type	Explanation
+B REF X	DRS B has discourse referent X
+B NOT B'	DRS B contains DRS-condition ¬ B' (it is not the case that)
+B POS B'	DRS B contains DRS-condition ◇ B' (it is possible that)
+B NEC B'	DRS B contains DRS-condition □ B' (it is necessary that)
+B IMP B' B''	DRS B contains DRS-condition B' ⇒ B'' (conditional)
+B DIS B' B''	DRS B contains DRS-condition B' ∨ B'' (disjunction)
+B PRP X B'	DRS B contains DRS-condition X : B' (propositional)
+B SYM SNS X	DRS B contains one-place predicate SYM with sense SNS applied to X
+B ROL X Y	DRS B contains role ROL that holds between X and Y
+B REL B' B''	(segmented) DRS B contains discourse relation REL that holds between DRSs B' and B''
+B DRS B'	(segmented) DRS B has DRS B'
+B EQU X Y	DRS B contains DRS-condition X = Y
+B NEQ X Y	DRS B contains DRS-condition X ≠ Y (not equal to)
+B APX X Y	DRS B contains DRS-condition X ≈ Y (approximately equal to)
+B LES X Y	DRS B contains DRS-condition X < Y (less than)
+B LEQ X Y	DRS B contains DRS-condition X ≤ Y (less or equal than)
+B TPR X Y	DRS B contains DRS-condition X ≺ Y (temporally precedes)
+B TAB X Y	DRS B contains DRS-condition X ⋈ Y (temporally abuts)
+B SZP X Y	DRS B contains DRS-condition X ∕ Y (spatial above)
+B SZN X Y	DRS B contains DRS-condition X ∖ Y (spatial under)
+B SXP X Y	DRS B contains DRS-condition X » Y (spatial behind)
+B SXN X Y	DRS B contains DRS-condition X « Y (spatial before)
+B STI X Y	DRS B contains DRS-condition X ⨃ Y (spatial topological inside)
+B STO X Y	DRS B contains DRS-condition X ᑘ Y (spatial topological outside)
+B SY1 X Y	DRS B contains DRS-condition X ∥ Y (spatial beside)
+B SY2 X Y	DRS B contains DRS-condition X ⚮ Y (spatial between)
+B SXY X Y	DRS B contains DRS-condition X ≖ Y (spatial around)
+
+The semantic matching tools expects DRSs in clause format with the following technical conventions. They are stored in a simple text file encoded in UTF-8. Each line contains one clause, and clause arguments are separated by one or more spaces or tabs. Comments can be added using a percentage symbol. Any information after this sign is considered to be not part of the clauses. A file can contain more than one DRS, in which case individual DRSs are separated by an empty line (not containing a comment).
+

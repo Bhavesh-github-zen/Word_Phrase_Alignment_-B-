@@ -1,0 +1,18 @@
+title: RTE-3
+subcorpus: RTE
+source: http://pascallin.ecs.soton.ac.uk/Challenges/RTE3/Datasets/
+terms of use:
+split: test/test
+entailment: YES/NO
+ent_part: h/h
+task: IR/IR
+id: 284/285
+length: short/short
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG
+translation: professional RUG

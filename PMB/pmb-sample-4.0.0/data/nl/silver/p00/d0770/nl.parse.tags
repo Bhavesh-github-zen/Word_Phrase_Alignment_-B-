@@ -1,0 +1,30 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ fa(s:dcl,
+  fa(s:dcl/s:dcl,
+   t((s:dcl/s:dcl)/np, 'Als', [from:0, to:3, lemma:'if', sem:'IMP', wordnet:'O']),
+   t(np, 'ik', [from:4, to:6, lemma:'speaker', sem:'PRO', wordnet:'O'])),
+  ba(s:dcl,
+   fa(s:dcl,
+    bxc(s:dcl/((s:b\np)\np),
+     fc((s:dcl\np)/((s:b\np)\np),
+      t((s:dcl\np)/(s:dcl\np), 'geen', [from:7, to:11, lemma:'no', sem:'NOT', wordnet:'O']),
+      bxc((s:dcl\np)/((s:b\np)\np),
+       bxc((s:b\np)/((s:b\np)\np),
+        lx((s:b\np)/((s:b\np)\np), np,
+         t(np, 'antwoord', [from:12, to:20, lemma:'answer', sem:'CON', wordnet:'O'])),
+        t((s:b\np)\(s:b\np), 'gaf', [from:21, to:24, lemma:'give', sem:'EPS', wordnet:'O', verbnet:['Theme','Agent']])),
+       t((s:dcl\np)\(s:b\np), 'zou', [from:25, to:28, lemma:'would', sem:'NIL', wordnet:'O']))),
+     fxc(s:dcl\(s:dcl\np),
+      lx(s:dcl/(s:dcl\np), np,
+       t(np, 'ik', [from:29, to:31, lemma:'speaker', sem:'PRO', wordnet:'O'])),
+      t((s:dcl\np)\(s:dcl\np), 'niet', [from:32, to:36, lemma:'not', sem:'NOT', wordnet:'O']))),
+    fxc((s:b\np)\np,
+     t((s:b\np)/(s:b\np), 'gesproken', [from:37, to:46, lemma:'speak', sem:'EXT', wordnet:'O', verbnet:['Agent']]),
+     t((s:b\np)\np, 'hebben', [from:47, to:53, lemma:'have', sem:'NOW', wordnet:'O']))),
+   t(s:dcl\s:dcl, '.', [from:53, to:54, lemma:'.', sem:'NIL', wordnet:'O'])))).
+

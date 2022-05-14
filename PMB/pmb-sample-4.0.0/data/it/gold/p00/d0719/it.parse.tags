@@ -1,0 +1,18 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'La', [from:0, to:2, lemma:'la', sem:'DEF', wordnet:'O']),
+    t(n, 'Russia', [from:3, to:9, lemma:'russia', sem:'GPE', wordnet:'state.n.03'])),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'teme', [from:10, to:14, lemma:'fear', sem:'ENS', wordnet:'fear.v.02', verbnet:['Stimulus','Experiencer']]),
+    fa(np,
+     t(np/n, 'il', [from:15, to:17, lemma:'the', sem:'DEF', wordnet:'O']),
+     t(n, 'sistema', [from:18, to:25, lemma:'system', sem:'CON', wordnet:'system.n.02'])))),
+  t(s:dcl\s:dcl, '.', [from:25, to:26, lemma:'.', sem:'NIL', wordnet:'O']))).
+

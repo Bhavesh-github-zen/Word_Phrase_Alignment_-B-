@@ -1,0 +1,189 @@
+<!-- begin parameter entities -->
+<!ENTITY % drsexp "(var|app|drs|smerge|merge|alfa|sdrs)">
+<!-- end parameter entities -->
+
+<!-- drs -->
+<!ELEMENT xdrs-output (xdrs*)>
+<!ATTLIST xdrs-output  
+          version CDATA #REQUIRED >
+
+<!ELEMENT xdrs (taggedtokens,(sdrs|app|drs|smerge|merge|alfa))>
+<!ATTLIST xdrs
+          xml:id ID #IMPLIED >
+
+<!ELEMENT sdrs (constituents,relations)>
+
+<!ELEMENT constituents ((sub|constituent)+)> <!-- (sub|constituent+)> -->
+
+<!ELEMENT sub (constituent,(sdrs|constituent))> <!-- was (constituent+)> -->
+
+<!ELEMENT constituent (tokens?, (drs|sub))> <!-- was (tokens?, drs) -->
+<!ATTLIST constituent 
+          label CDATA #REQUIRED>
+
+<!ELEMENT relations (drel*)>
+
+<!ELEMENT drel EMPTY>
+<!ATTLIST drel 
+          arg1 CDATA #REQUIRED 
+          arg2 CDATA #REQUIRED 
+          sym CDATA #REQUIRED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED >
+          
+<!-- begin taggedtokens -->
+<!ELEMENT taggedtokens (tagtoken+)>
+
+<!ELEMENT tagtoken (tags)>
+<!ATTLIST tagtoken 
+          xml:id ID #REQUIRED>
+
+<!ELEMENT tags (tag+)>
+
+<!ELEMENT tag (#PCDATA)>
+<!ATTLIST tag 
+          type (verbnet|tok|wordnet|cat|sense|sym|lemma|sem|from|to|pos|antecedent) #REQUIRED>
+<!ATTLIST tag 
+          n CDATA #IMPLIED>
+<!-- end taggedtokens -->             
+
+<!ELEMENT drs (domain,conds)>
+<!-- <!ATTLIST drs
+          type CDATA #REQUIRED > -->
+<!ATTLIST drs
+          label CDATA #REQUIRED >          
+
+<!ELEMENT tokens (token*)> <!-- to remove --> 
+
+<!ELEMENT token (#PCDATA)>
+
+<!ELEMENT domain (dr*)>
+
+<!ELEMENT conds (cond*)>
+
+<!ELEMENT cond (named|pred|rel|comp|prop|not|nec|pos|or|imp|whq|duplex)>
+<!ATTLIST cond
+          label CDATA #REQUIRED > 
+
+<!--<!ELEMENT conds ((timex|named|pred|card|eq|rel|prop|not|nec|pos|or|imp|whq)*)>-->
+
+<!ELEMENT merge (%drsexp;,%drsexp;)>
+
+<!ELEMENT smerge (%drsexp;,%drsexp;)>
+
+<!ELEMENT lam ((var,%drsexp;)|(var,lam)|var)>
+
+<!ELEMENT app (lam,%drsexp;)>
+
+<!ELEMENT alfa (%drsexp;,%drsexp;)>
+<!ATTLIST alfa
+          type CDATA #REQUIRED >
+
+<!ELEMENT index (#PCDATA)>
+<!ATTLIST index
+          pos CDATA #REQUIRED >
+
+<!ELEMENT var (#PCDATA)>
+
+<!ELEMENT dr (index*)>
+<!ATTLIST dr
+          label CDATA #REQUIRED
+          name CDATA #REQUIRED 
+          from CDATA #REQUIRED 
+          to CDATA #REQUIRED>
+
+<!ELEMENT pred (index*)>
+<!ATTLIST pred
+          arg CDATA #REQUIRED 
+          symbol CDATA #REQUIRED 
+          synset CDATA #REQUIRED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT named (index*)>
+<!ATTLIST named
+          arg CDATA #REQUIRED 
+          symbol CDATA #REQUIRED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT rel (index*)>
+<!ATTLIST rel
+          arg1 CDATA #REQUIRED 
+          arg2 CDATA #REQUIRED 
+          symbol CDATA #REQUIRED
+          framenet CDATA #IMPLIED 
+          sense CDATA #IMPLIED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT comp (index*)>
+<!ATTLIST comp
+          arg1 CDATA #REQUIRED 
+          arg2 CDATA #REQUIRED 
+          symbol CDATA #REQUIRED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+
+<!ELEMENT not (index*,%drsexp;)>
+<!ATTLIST not
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT pos (index*,%drsexp;)>
+<!ATTLIST pos
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT nec (index*,%drsexp;)>
+<!ATTLIST nec
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT or (index*,(%drsexp;,%drsexp;))>
+<!ATTLIST or
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT imp (index*,(%drsexp;,%drsexp;))>
+<!ATTLIST imp
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT whq (index*,(%drsexp;,%drsexp;))>
+
+<!ELEMENT duplex (index*,(%drsexp;,%drsexp;))>
+<!ATTLIST duplex
+		  type CDATA #REQUIRED
+		  var CDATA #REQUIRED 	
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED>
+
+<!ELEMENT prop (index*,%drsexp;)>
+<!ATTLIST prop
+          argument CDATA #REQUIRED 
+          from CDATA #IMPLIED
+          to CDATA #IMPLIED >
+
+<!ELEMENT timex (index*,(date|time))>
+<!ATTLIST timex
+          arg CDATA #REQUIRED >
+
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+
+<!ELEMENT words (word+)>
+<!ELEMENT word (#PCDATA)>
+<!ATTLIST word
+          xml:id ID #REQUIRED >
+
+<!ELEMENT postags (postag+)>
+<!ELEMENT postag (#PCDATA)>
+<!ATTLIST postag
+          index IDREF #REQUIRED >
+
+<!ELEMENT netags (netag*)>
+<!ELEMENT netag (#PCDATA)>
+<!ATTLIST netag
+          index IDREF #REQUIRED >

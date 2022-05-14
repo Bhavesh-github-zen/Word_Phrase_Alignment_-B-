@@ -1,0 +1,28 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Computer-Terminals', [from:0, to:18, lemma:'computer-terminals', sem:'QUE', wordnet:'O'])),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     t((s:dcl\np)/(s:pss\np), 'werden', [from:19, to:25, lemma:'be', sem:'FUT', wordnet:'O']),
+     t(s:pss\np, 'verwendet', [from:26, to:35, lemma:'use', sem:'EXS', wordnet:'O', verbnet:['Recipient','Topic']])),
+    t((s:dcl\np)\(s:dcl\np), ',', [from:35, to:36, lemma:',', sem:'NIL', wordnet:'O']))),
+  fxc(s:dcl\s:dcl,
+   lx(s:dcl/s:dcl, s:to\np,
+    ba(s:to\np,
+     fa((s:b\np)/(s:b\np),
+      t(((s:b\np)/(s:b\np))/np, 'um', [from:37, to:39, lemma:'um', sem:'REL', wordnet:'O']),
+      lx(np, n,
+       t(n, 'Gesundheitsinformationen', [from:40, to:64, lemma:'gesundheitsinformationen', sem:'GPE', wordnet:'O']))),
+     fxc((s:to\np)\((s:b\np)/(s:b\np)),
+      t((s:to\np)/(s:b\np), 'zu', [from:65, to:67, lemma:'to', sem:'REL', wordnet:'O']),
+      lx((s:b\np)\((s:b\np)/(s:b\np)), s:b\np,
+       t(s:b\np, 'liefern', [from:68, to:75, lemma:'provide', sem:'YOC', wordnet:'O', verbnet:['Theme','Agent']]))))),
+   t(s:dcl\s:dcl, '.', [from:75, to:76, lemma:'.', sem:'NIL', wordnet:'O'])))).
+

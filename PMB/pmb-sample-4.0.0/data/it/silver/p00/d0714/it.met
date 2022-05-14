@@ -1,0 +1,10 @@
+title: RTE-3
+subcorpus: RTE
+source: http://www.excitement-project.eu/index.php/results
+terms of use: Creative Commons Attribution 3.0 Unported License
+split: test/test
+entailment: YES/NO
+ent_part: h/h
+task: IR/IR
+id: 284/285
+length: short/short

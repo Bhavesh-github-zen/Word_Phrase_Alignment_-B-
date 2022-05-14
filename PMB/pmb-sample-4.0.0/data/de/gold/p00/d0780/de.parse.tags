@@ -1,0 +1,24 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'Die', [from:0, to:3, lemma:'the', sem:'DEF', wordnet:'O']),
+    t(n, 'Astronauten', [from:4, to:15, lemma:'astronaut', sem:'ROL', wordnet:'astronaut.n.01'])),
+   ba(s:dcl\np,
+    ba(s:dcl\np,
+     t(s:dcl\np, 'flogen', [from:16, to:22, lemma:'fly', sem:'EPS', wordnet:'fly.v.01', verbnet:['Theme']]),
+     fa((s:dcl\np)\(s:dcl\np),
+      t(((s:dcl\np)\(s:dcl\np))/np, 'mit', [from:23, to:26, lemma:'mit', sem:'REL', wordnet:'O']),
+      fa(np,
+       t(np/n, 'einer', [from:27, to:32, lemma:'a', sem:'DIS', wordnet:'O']),
+       t(n, 'Rakete', [from:33, to:39, lemma:'rocket', sem:'CON', wordnet:'rocket.n.01'])))),
+    fa((s:dcl\np)\(s:dcl\np),
+     t(((s:dcl\np)\(s:dcl\np))/n, 'zum', [from:40, to:43, lemma:'zum', sem:'DEF', wordnet:'O', verbnet:['Destination']]),
+     t(n, 'Mond', [from:44, to:48, lemma:'moon', sem:'CON', wordnet:'moon.n.01'])))),
+  t(s:dcl\s:dcl, '.', [from:48, to:49, lemma:'.', sem:'NIL', wordnet:'O']))).
+

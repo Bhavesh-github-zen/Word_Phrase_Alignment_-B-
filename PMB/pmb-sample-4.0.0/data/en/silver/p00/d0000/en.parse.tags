@@ -1,0 +1,22 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   t(n, 'Seadoo', [from:2, to:8, pos:'NN', lemma:'seadoo', sem:'CON', wordnet:'O'])),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:ng\np), 'is', [from:9, to:11, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    fa(s:ng\np,
+     t((s:ng\np)/(s:pss\np), 'being', [from:12, to:17, pos:'VBG', lemma:'be', sem:'PRG', wordnet:'O']),
+     t(s:pss\np, 'ridden', [from:18, to:24, pos:'VBN', lemma:'ride', sem:'EXT', wordnet:'O', verbnet:['Theme']]))),
+   fa((s\np)\(s\np),
+    t(((s\np)\(s\np))/np, 'by', [from:25, to:27, pos:'IN', lemma:'by', sem:'REL', wordnet:'O', verbnet:['Agent']]),
+    fa(np,
+     t(np/n, 'a', [from:28, to:29, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+     t(n, 'woman', [from:30, to:35, pos:'NN', lemma:'woman', sem:'CON', wordnet:'woman.n.01'])))))).
+

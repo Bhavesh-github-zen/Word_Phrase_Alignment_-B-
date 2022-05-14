@@ -1,0 +1,20 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'Die', [from:0, to:3, lemma:'the', sem:'DEF', wordnet:'O']),
+    t(n, 'Yakuza', [from:4, to:10, lemma:'yakuza', sem:'CON', wordnet:'yakuza.n.02'])),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'sind', [from:11, to:15, lemma:'be', sem:'ENS', wordnet:'be.v.02', verbnet:['Co-Theme','Theme']]),
+    fa(np,
+     t(np/n, 'die', [from:16, to:19, lemma:'the', sem:'DEF', wordnet:'O']),
+     fa(n,
+      t(n/n, 'japanischen', [from:20, to:31, lemma:'japan', sem:'GPO', wordnet:'country.n.02', verbnet:['Location']]),
+      t(n, 'Mafia', [from:32, to:37, lemma:'mafia', sem:'CON', wordnet:'mafia.n.01']))))),
+  t(s:dcl\s:dcl, '.', [from:37, to:38, lemma:'.', sem:'NIL', wordnet:'O']))).
+

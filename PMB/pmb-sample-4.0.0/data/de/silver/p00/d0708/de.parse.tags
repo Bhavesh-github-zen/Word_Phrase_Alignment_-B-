@@ -1,0 +1,36 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(s:dcl,
+   bxc(s:dcl/np,
+    t((s:dcl/s:dcl)/np, 'Um', [from:0, to:2, lemma:'by', sem:'REL', wordnet:'O', verbnet:['Time']]),
+    lx(s:dcl\(s:dcl/s:dcl), s:dcl,
+     ba(s:dcl,
+      lx(np, n,
+       t(n, '1861', [from:3, to:7, lemma:'1861', sem:'QUC', wordnet:'O'])),
+      fa(s:dcl\np,
+       t((s:dcl\np)/np, 'produzierte', [from:8, to:19, lemma:'produzierte', sem:'EPS', wordnet:'O']),
+       fa(np,
+        t(np/n, 'der', [from:20, to:23, lemma:'der', sem:'DEF', wordnet:'O']),
+        fa(n,
+         t(n/pp, 'Vater', [from:24, to:29, lemma:'father', sem:'ROL', wordnet:'father.n.01']),
+         fa(pp,
+          t(pp/np, 'von', [from:30, to:33, lemma:'von', sem:'REL', wordnet:'O']),
+          lx(np, n,
+           t(n, 'Alfred~Nobel', [from:34, to:46, lemma:'alfred~nobel', sem:'PER', wordnet:'male.n.02']))))))))),
+   ba(np,
+    fa(np,
+     t(np/n, 'den', [from:47, to:50, lemma:'the', sem:'DEF', wordnet:'O']),
+     fa(n,
+      t(n/n, 'neuesten', [from:51, to:59, lemma:'new', sem:'ORD', wordnet:'O', verbnet:['Attribute']]),
+      t(n, 'Sprengstoff', [from:60, to:71, lemma:'sprengstoff', sem:'CON', wordnet:'O']))),
+    fa(np\np,
+     t((np\np)/np, '-', [from:72, to:73, lemma:'-', sem:'NIL', wordnet:'O']),
+     lx(np, n,
+      t(n, 'Nitroglycerin', [from:74, to:87, lemma:'nitroglycerin', sem:'ROL', wordnet:'nitroglycerin.n.01']))))),
+  t(s:dcl\s:dcl, '.', [from:87, to:88, lemma:'.', sem:'NIL', wordnet:'O']))).
+

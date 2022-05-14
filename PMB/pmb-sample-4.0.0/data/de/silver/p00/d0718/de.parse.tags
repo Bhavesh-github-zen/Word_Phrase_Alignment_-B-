@@ -1,0 +1,24 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'Die', [from:0, to:3, lemma:'the', sem:'DEF', wordnet:'O']),
+    fa(n,
+     t(n/pp, 'Entscheidungen', [from:4, to:18, lemma:'decision', sem:'CON', wordnet:'decision.n.01']),
+     fa(pp,
+      t(pp/np, 'des', [from:19, to:22, lemma:'the', sem:'REL', wordnet:'O']),
+      lx(np, n,
+       t(n, 'Weltgerichtshofs', [from:23, to:39, lemma:'weltgerichtshofs', sem:'GPE', wordnet:'O']))))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'haben', [from:40, to:45, lemma:'haben', sem:'ENS', wordnet:'O']),
+    lx(np, n,
+     fa(n,
+      t(n/n, 'diplomatisches', [from:46, to:60, lemma:'diplomatic', sem:'GPO', wordnet:'O', verbnet:['Attribute']]),
+      t(n, 'Gewicht', [from:61, to:68, lemma:'weight', sem:'CON', wordnet:'O']))))),
+  t(s:dcl\s:dcl, '.', [from:68, to:69, lemma:'.', sem:'NIL', wordnet:'O']))).
+

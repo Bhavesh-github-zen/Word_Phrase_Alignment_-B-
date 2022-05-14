@@ -1,0 +1,134 @@
+# Semantic tags for named entities allow only a predefined set of senses.
+# Hyponym senses are indented under their corresponding hypernym senses.
+# The hyponymy/hypernymy relations are taken from WordNet 3.1
+
+GPO: &location1_continent1_island1
+  location.n.01: #a point or extent in space
+    region.n.03: &country2_state1_city1 #a large indefinite location on the surface of the Earth
+      country.n.02: #the territory occupied by a nation
+      state.n.01: #the territory occupied by one of the constituent administrative districts of a nation
+      city.n.01: #a large and densely populated urban area; may include several independent administrative districts
+ #- land.n.04: #the solid part of the earth's surface
+  continent.n.01: #one of the large landmasses of the earth
+  island.n.01: #a land mass (smaller than a continent) that is surrounded by water
+GPE:
+  social_group.n.01: #people sharing some social relation
+    government.n.01: #the organization that is the governing authority of a political unit
+      state.n.03: #the group of people comprising the government of a sovereign state
+      state.n.04: #a politically organized body of people under a single government
+      city.n.03: #people living in a large densely populated municipality
+  people.n.01: #(plural) any group of human beings (men or women or children) collectively)
+    nation.n.02: #the people who live in a nation or country
+  <<: *location1_continent1_island1
+  location.n.01: #a point or extent in space
+    region.n.03: #a large indefinite location on the surface of the Earth
+      <<: *country2_state1_city1
+      city.n.02: #an incorporated administrative district established by state charter
+      county.n.02: #(United States) the largest administrative district within a state
+      #state.n.01: #the territory occupied by one of the constituent administrative districts of a nation
+    #region.n.01: #the extended spatial location of something
+  county.n.01: #(United Kingdom) a region created by territorial division for the purpose of local government
+  #land.n.04: #the solid part of the earth's surface
+    #peninsula.n.01: #a large mass of land projecting into a body of water
+GEO:
+  land.n.04: #the solid part of the earth's surface
+    cape.n.01: #a strip of land projecting into a body of water
+  geological_formation.n.01: #(geology) the geological features of the earth
+    mountain.n.01: #a land mass that projects well above its surroundings; higher than a hill
+    hill.n.01: #a local and well-defined elevation of the land # remove?
+  body_of_water.n.01: #the part of the earth's surface covered with water (such as a river or lake or ocean)"),
+    river.n.01: #a large natural stream of water (larger than a creek)
+    lake.n.01: #a body of (usually fresh) water surrounded by land
+    ocean.n.01: #a large body of water constituting a principal part of the hydrosphere
+    sea.n.01: #a division of an ocean or a large body of salt water partially enclosed by land
+    bay.n.01: #an indentation of a shoreline larger than a cove but smaller than a gulf
+    gulf.n.01: #an arm of a sea or ocean partly enclosed by land; larger than a bay
+    channel.n.04: #a deep and relatively narrow body of water (as in a river or a harbor or a strait linking two larger bodies) that allows the best passage for vessels
+  region.n.03: #a large indefinite location on the surface of the Earth
+    geographical_area.n.01: #a demarcated area of the Earth
+      park.n.01: #a large area of land preserved in its natural state as public property
+      park.n.02: #a piece of open land for recreational use in an urban area
+      public_square.n.01: #an open area at the meeting of two or more streets
+  #artifact.n.01: #a man-made object taken as a whole
+  way.n.06: #any artifact consisting of a road or path affording passage from one place to another
+    #street.n.01: #a thoroughfare (usually including sidewalks) that is lined with buildings
+    #lane.n.01: #a narrow way or road
+PER:
+  person.n.01: #a human being
+    male.n.02: #a person who belongs to the sex that cannot have babies
+    female.n.02: #a person who belongs to the sex that can have babies
+ORG:
+  organization.n.01: #a group of people who work together
+    agency.n.01: #an administrative unit of government
+    alliance.n.03: #an organization of people (or countries) involved in a pact or treaty
+    company.n.01: #an institution created to conduct business
+    party.n.01: #an organization to gain political power
+    university.n.03: #a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees
+    team.n.01: #a cooperative unit (especially in sports)
+    musical_organization.n.01: #an organization of musicians who perform together
+    military_unit.n.01: #a unit that is part of some military service
+    religion.n.02: #an institution to express belief in a divine power
+    hospital.n.02: #a medical institution where sick or injured people are given medical or surgical care
+ART:
+  artifact.n.01: #a man-made object taken as a whole
+    structure.n.01: #a thing constructed; a complex entity constructed of many parts
+      bridge.n.01: #a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.
+      tower.n.01: #a structure taller than its diameter; can stand alone or be attached to a larger building
+      hospital.n.01: #a health facility where patients receive treatment
+      plant.n.01: #buildings for carrying on industrial labor
+      memorial.n.03: #a structure erected to commemorate persons or events
+      house.n.01: #a dwelling that serves as living quarters for one or more families
+    facility.n.01: #a building or place that provides a particular service or is used for a particular industry
+      museum.n.01: #a depository for collecting and displaying objects having scientific or historical or artistic value
+      station.n.01: #a facility equipped with special equipment and personnel for a particular purpose
+    album.n.01: #one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc
+    book.n.01: #a written work or composition that has been published (printed on pages bound together)
+    movie.n.01: #a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement
+    painting.n.01: #graphic art consisting of an artistic composition made by applying paints to a surface
+    vehicle.n.01: #a conveyance that transports people or objects
+    sculpture.n.01: #a three-dimensional work of plastic art
+  situation_comedy.n.02: #a humorous television program based on situations that could arise in everyday life
+  music.n.01: #an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner
+    #song.n.01: #a short musical composition with words
+  theory.n.01: # a well-substantiated explanation of some aspect of the natural world; an organized system of accepted knowledge that applies in a variety of circumstances to explain a specific set of phenomena
+  writing.n.02: #the work of a writer; anything expressed in letters of the alphabet (especially when considered from the point of view of style and effect)
+    article.n.03: #a separate section of a legal document (as a statute or contract or will)
+    chapter.n.01: #a subdivision of a written work; usually numbered and titled
+    poem.n.01: #a composition written in metrical feet forming rhythmical lines
+  #writing.n.04: #letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+  software.n.01: #(computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory
+  geographic_point.n.01: #a point on the surface of the Earth
+    seaport.n.01: #a sheltered port where ships can take on or discharge cargo
+HAP:
+  event.n.01: #something that happens at a given place and time
+    war.n.01: #the waging of armed conflict against an enemy
+    tournament.n.01: #a sporting competition in which contestants play a series of games to decide the winner
+    festival.n.02: #an organized series of acts and performances (usually in one place)
+  broadcast.n.01: #message that is transmitted by radio or television
+  time_period.n.01: #an amount of time
+    day.n.03: #a day assigned to a particular purpose or observance
+CTC:
+  location.n.01: #a point or extent in space"),
+    address.n.02: #the place where a person or organization can be found or communicated with
+  writing.n.04: #letters or symbols that are written or imprinted on a surface to represent the sounds or words of a language
+    URL.n.01: #the address of a web page on the world wide web
+    ZIP_code.n.01: #a code of letters and digits added to a postal address to aid in the sorting of mail
+  communication.n.02: #something that is communicated by or to or between people or groups
+    phone_number.n.01: #the number is used in calling a particular telephone
+NTH:
+  object.n.01: #a tangible and visible entity; an entity that can cast a shadow
+    animal.n.01: #a living organism characterized by voluntary movement
+  phenomenon.n.01: #any state or process known through the senses rather than by intuition or reasoning
+    cyclone.n.02: #a violent rotating windstorm
+      #hurricane.n.01: #a severe tropical cyclone usually with heavy rains and winds moving at 63-136 knots (12 on the Beaufort scale)
+  natural_object.n.01: #an object occurring naturally; not made by man
+    planet.n.03: #any celestial body (other than comets or satellites) that revolves around a star
+    comet.n.01: #(astronomy) a relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit
+  communication.n.02: #something that is communicated by or to or between people or groups
+    figure.n.01: #a diagram or picture illustrating textual material
+    award.n.02: #a tangible symbol signifying approval or distinction
+  entity.n.01: #that which is perceived or known or inferred to have its own distinct existence (living or nonliving)
+    table.n.01: #a set of data arranged in rows and columns
+    version.n.02: #something a little different from others of the same type
+    number.n.02: #a concept of quantity involving zero and units
+    god.n.01: #the supernatural being conceived as the perfect and omnipotent and omniscient originator and ruler of the universe; the object of worship in monotheistic religions

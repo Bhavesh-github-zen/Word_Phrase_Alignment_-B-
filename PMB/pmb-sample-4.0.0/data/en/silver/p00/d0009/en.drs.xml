@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- A football~player in a purple jersey is breathlessly running with the ball for a touchdown --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">A</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">0</tag>
+     <tag type="to">1</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">football~player</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">football~player</tag>
+     <tag type="lemma">football~player</tag>
+     <tag type="from">2</tag>
+     <tag type="to">17</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">ROL</tag>
+     <tag type="wordnet">football_player.n.01</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="cat">(n\n)/np</tag>
+     <tag type="sym">in</tag>
+     <tag type="lemma">in</tag>
+     <tag type="from">18</tag>
+     <tag type="to">20</tag>
+     <tag type="pos">IN</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Location]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">a</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">21</tag>
+     <tag type="to">22</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">purple</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">purple</tag>
+     <tag type="lemma">purple</tag>
+     <tag type="from">23</tag>
+     <tag type="to">29</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="sem">COL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Colour]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">jersey</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">jersey</tag>
+     <tag type="lemma">jersey</tag>
+     <tag type="from">30</tag>
+     <tag type="to">36</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">jersey.n.03</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">is</tag>
+     <tag type="cat">(s:dcl\np)/(s:ng\np)</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">37</tag>
+     <tag type="to">39</tag>
+     <tag type="pos">VBZ</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="tok">breathlessly</tag>
+     <tag type="cat">(s:dcl\np)\(s:dcl\np)</tag>
+     <tag type="sym">breathlessly</tag>
+     <tag type="lemma">breathlessly</tag>
+     <tag type="from">40</tag>
+     <tag type="to">52</tag>
+     <tag type="pos">RB</tag>
+     <tag type="sem">IST</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Manner]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="tok">running</tag>
+     <tag type="cat">s:ng\np</tag>
+     <tag type="sym">run</tag>
+     <tag type="lemma">run</tag>
+     <tag type="from">53</tag>
+     <tag type="to">60</tag>
+     <tag type="pos">VBG</tag>
+     <tag type="sem">EXG</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Theme]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">with</tag>
+     <tag type="cat">((s:ng\np)\(s:ng\np))/np</tag>
+     <tag type="sym">with</tag>
+     <tag type="lemma">with</tag>
+     <tag type="from">61</tag>
+     <tag type="to">65</tag>
+     <tag type="pos">IN</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Location]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">the</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">66</tag>
+     <tag type="to">69</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ball</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">ball</tag>
+     <tag type="lemma">ball</tag>
+     <tag type="from">70</tag>
+     <tag type="to">74</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">ball.n.01</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="tok">for</tag>
+     <tag type="cat">((s:ng\np)\(s:ng\np))/np</tag>
+     <tag type="sym">for</tag>
+     <tag type="lemma">for</tag>
+     <tag type="from">75</tag>
+     <tag type="to">78</tag>
+     <tag type="pos">IN</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Duration]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">a</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">79</tag>
+     <tag type="to">80</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">touchdown</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">touchdown</tag>
+     <tag type="lemma">touchdown</tag>
+     <tag type="from">81</tag>
+     <tag type="to">90</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">touchdown.n.01</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+   <dr label="b1" name="x1" from="0" to="1"></dr>
+   <dr label="b1" name="x2" from="2" to="17"></dr>
+   <dr label="b1" name="x3" from="21" to="22"></dr>
+   <dr label="b1" name="s1" from="23" to="29"></dr>
+   <dr label="b1" name="e1" from="53" to="60"></dr>
+   <dr label="b2" name="x4" from="66" to="69"></dr>
+   <dr label="b1" name="x5" from="79" to="80"></dr>
+   <dr label="b1" name="t1" from="37" to="39"></dr>
+   <dr label="b1" name="s2" from="40" to="52"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="x2" symbol="football_player" synset="football_player.n.01" from="2" to="17"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="x1" symbol="person" synset="person.n.01" from="2" to="17"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x1" arg2="x3" symbol="Location" framenet="Location" from="18" to="20"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x1" arg2="x2" symbol="Role" framenet="Role" from="2" to="17"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="s1" symbol="purple" synset="purple.a.01" from="23" to="29"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="x3" symbol="jersey" synset="jersey.n.03" from="30" to="36"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x3" arg2="s1" symbol="Colour" framenet="Colour" from="23" to="29"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="t1" symbol="time" synset="time.n.08" from="37" to="39"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="t1" arg2="now" from="37" to="39"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="e1" symbol="run" synset="run.v.01" from="53" to="60"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="s2" symbol="Manner" framenet="Manner" from="40" to="52"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="t1" symbol="Time" framenet="Time" from="37" to="39"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x5" symbol="Duration" framenet="Duration" from="75" to="78"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x4" symbol="Location" framenet="Self_motion@Goal" from="61" to="65"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x1" symbol="Theme" framenet="Impact@Impactor" from="53" to="60"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="s2" symbol="breathlessly" synset="breathlessly.a.01" from="40" to="52"></pred>
+   </cond>
+   <cond label="b2">
+    <pred arg="x4" symbol="ball" synset="ball.n.01" from="70" to="74"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="x5" symbol="touchdown" synset="touchdown.n.01" from="81" to="90"></pred>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

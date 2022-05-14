@@ -1,0 +1,20 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(np,
+  lx(np, n,
+   t(n, 'Uh', [from:0, to:2, lemma:'uh', sem:'HES', wordnet:'O'])),
+  t(np\np, '...', [from:2, to:5, lemma:'...', sem:'NIL', wordnet:'O']))).
+
+ccg(2,
+ ba(s:wq,
+  fa(s:wq,
+   t(s:wq/s:q, 'Hoe', [from:6, to:9, lemma:'hoe', sem:'QUE', wordnet:'O']),
+   fa(s:q,
+    t(s:q/np, 'werkt', [from:10, to:15, lemma:'werkt', sem:'ENS', wordnet:'O']),
+    t(np, 'dat', [from:16, to:19, lemma:'dat', sem:'DST', wordnet:'O']))),
+  t(s:wq\s:wq, '?', [from:19, to:20, lemma:'?', sem:'QUE', wordnet:'O']))).
+

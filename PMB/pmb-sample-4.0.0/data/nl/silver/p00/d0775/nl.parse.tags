@@ -1,0 +1,38 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Mensen', [from:0, to:6, lemma:'person', sem:'CON', wordnet:'person.n.01'])),
+   fa(s:dcl\np,
+    bxc((s:dcl\np)/pp,
+     bxc((s:dcl\np)/pp,
+      fa((s:dcl\np)/pp,
+       t(((s:dcl\np)/pp)/np, 'die', [from:7, to:10, lemma:'who', sem:'AND', wordnet:'O']),
+       lx(np, n,
+        t(n, 'regelmatig', [from:11, to:21, lemma:'regularly', sem:'IST', wordnet:'O', verbnet:['Manner']]))),
+      fa((s:dcl\np)\(s:dcl\np),
+       t(((s:dcl\np)\(s:dcl\np))/np, 'in', [from:22, to:24, lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+       ba(np,
+        fa(np,
+         t(np/n, 'de', [from:25, to:27, lemma:'the', sem:'DEF', wordnet:'O']),
+         fa(n,
+          t(n/n, 'open', [from:28, to:32, lemma:'open~air', sem:'CON', wordnet:'open_air.n.01']),
+          fa(n,
+           t(n/n, 'lucht', [from:33, to:38, lemma:'open~air', sem:'CON', wordnet:'open_air.n.01']),
+           t(n, 'werken', [from:39, to:45, lemma:'work', sem:'ENS', wordnet:'work.v.02', verbnet:['Agent']])))),
+        fa(np\np,
+         t((np\np)/np, ',', [from:45, to:46, lemma:',', sem:'AND', wordnet:'O']),
+         lx(np, n,
+          t(n, 'lijden', [from:47, to:53, lemma:'suffer', sem:'CON', wordnet:'O', verbnet:['Experiencer']])))))),
+     t((s:dcl\np)\(s:dcl\np), 'niet', [from:54, to:58, lemma:'not', sem:'NOT', wordnet:'O'])),
+    fa(pp,
+     t(pp/np, 'aan', [from:59, to:62, lemma:'aan', sem:'REL', wordnet:'O']),
+     lx(np, n,
+      t(n, 'slapeloosheid', [from:63, to:76, lemma:'slapeloosheid', sem:'CON', wordnet:'O']))))),
+  t(s:dcl\s:dcl, '.', [from:76, to:77, lemma:'.', sem:'NIL', wordnet:'O']))).
+

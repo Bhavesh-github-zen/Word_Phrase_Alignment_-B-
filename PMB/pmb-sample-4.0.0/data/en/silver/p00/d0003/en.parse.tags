@@ -1,0 +1,20 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   t(n, 'boy', [from:2, to:5, pos:'NN', lemma:'boy', sem:'CON', wordnet:'boy.n.01'])),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:ng\np), 'is', [from:6, to:8, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    t(s:ng\np, 'running', [from:9, to:16, pos:'VBG', lemma:'run', sem:'EXG', wordnet:'O', verbnet:['Theme']])),
+   fa((s\np)\(s\np),
+    t(((s\np)\(s\np))/np, 'through', [from:17, to:24, pos:'IN', lemma:'through', sem:'REL', wordnet:'O', verbnet:['Path']]),
+    fa(np,
+     t(np/n, 'the', [from:25, to:28, pos:'DT', lemma:'the', sem:'DEF', wordnet:'O']),
+     t(n, 'sand', [from:29, to:33, pos:'NN', lemma:'sand', sem:'CON', wordnet:'sand.n.01'])))))).
+

@@ -1,0 +1,43 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Washington', [from:0, to:10, lemma:'washington', sem:'PER', wordnet:'city.n.02'])),
+   fa(s:dcl\np,
+    bxc((s:dcl\np)/(s:adj\np),
+     t((s:dcl\np)/(s:adj\np), 'ha', [from:11, to:13, lemma:'have', sem:'NOW', wordnet:'O']),
+     t((s:dcl\np)\(s:dcl\np), 'ripetutamente', [from:14, to:27, lemma:'ripetutamente', sem:'INT', wordnet:'O'])),
+    fa(s:adj\np,
+     t((s:adj\np)/pp, 'cercato', [from:28, to:35, lemma:'to', sem:'IST', wordnet:'O']),
+     fa(pp,
+      t(pp/(s:ng\np), 'di', [from:36, to:38, lemma:'di', sem:'REL', wordnet:'O']),
+      fa(s:ng\np,
+       t((s:ng\np)/np, 'rassicurare', [from:39, to:50, lemma:'reassure', sem:'EXG', wordnet:'O', verbnet:['Recipient','Topic','Agent']]),
+       fa(np,
+        t(np/n, 'la', [from:51, to:53, lemma:'la', sem:'DEF', wordnet:'O']),
+        ba(n,
+         t(n, 'Russia', [from:54, to:60, lemma:'russia', sem:'GPE', wordnet:'county.n.02']),
+         fa(n\n,
+          t((n\n)/(s:dcl\np), 'che', [from:61, to:64, lemma:'che', sem:'QUE', wordnet:'O']),
+          fa(s:dcl\np,
+           t((s:dcl\np)/(s:b\np), 'non', [from:65, to:68, lemma:'non', sem:'NOT', wordnet:'O']),
+           fa(s:b\np,
+            t((s:b\np)/np, 'ha', [from:69, to:71, lemma:'have', sem:'ENS', wordnet:'O', verbnet:['Theme','Agent']]),
+            t(np, 'niente', [from:72, to:78, lemma:'entity', sem:'DIS', wordnet:'O']))))))))))),
+  fxc(s:dcl\s:dcl,
+   lx(s:dcl/s:dcl, s:to\np,
+    fa(s:to\np,
+     t((s:to\np)/(s:b\np), 'da', [from:79, to:81, lemma:'to', sem:'REL', wordnet:'O']),
+     fa(s:b\np,
+      t((s:b\np)/pp, 'temere', [from:82, to:88, lemma:'fear', sem:'EXG', wordnet:'O', verbnet:['Theme']]),
+      fa(pp,
+       t(pp/np, 'dal', [from:89, to:92, lemma:'from', sem:'REL', wordnet:'O', verbnet:['Source']]),
+       lx(np, n,
+        t(n, 'sistema', [from:93, to:100, lemma:'system', sem:'CON', wordnet:'O'])))))),
+   t(s:dcl\s:dcl, '.', [from:100, to:101, lemma:'.', sem:'NIL', wordnet:'O'])))).
+

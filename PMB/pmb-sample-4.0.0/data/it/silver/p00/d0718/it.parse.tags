@@ -1,0 +1,25 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/n, 'Le', [from:0, to:2, lemma:'the', sem:'DEF', wordnet:'O']),
+    fa(n,
+     t(n/pp, 'decisioni', [from:3, to:12, lemma:'decision', sem:'CON', wordnet:'decision.n.01']),
+     fa(pp,
+      t(pp/np, 'della', [from:13, to:18, lemma:'of', sem:'DEF', wordnet:'O', verbnet:['PartOf']]),
+      lx(np, n,
+       t(n, 'Corte~Mondiale', [from:19, to:33, lemma:'corte~mondiale', sem:'HAP', wordnet:'O']))))),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'hanno', [from:34, to:39, lemma:'hanno', sem:'NOW', wordnet:'O']),
+    fa(np,
+     t(np/n, 'un', [from:40, to:42, lemma:'un', sem:'DIS', wordnet:'O']),
+     ba(n,
+      t(n, 'peso', [from:43, to:47, lemma:'weight', sem:'QUV', wordnet:'O']),
+      t(n\n, 'diplomatico', [from:48, to:59, lemma:'diplomatic', sem:'IST', wordnet:'O', verbnet:['Attribute']]))))),
+  t(s:dcl\s:dcl, '.', [from:59, to:60, lemma:'.', sem:'NIL', wordnet:'O']))).
+

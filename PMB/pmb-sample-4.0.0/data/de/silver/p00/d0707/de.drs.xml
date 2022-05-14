@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- ø Mord hat sich dieses Jahr in ø Russland in ø mindestens fünf Fällen ø als die bevorzugte Zensurmethode erwiesen . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">0</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Mord</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">murder</tag>
+     <tag type="lemma">murder</tag>
+     <tag type="from">0</tag>
+     <tag type="to">4</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">hat</tag>
+     <tag type="cat">(s:dcl\np)/np</tag>
+     <tag type="sym">have</tag>
+     <tag type="lemma">have</tag>
+     <tag type="from">5</tag>
+     <tag type="to">8</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">sich</tag>
+     <tag type="cat">np</tag>
+     <tag type="sym">sich</tag>
+     <tag type="lemma">sich</tag>
+     <tag type="from">9</tag>
+     <tag type="to">13</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">dieses</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/n</tag>
+     <tag type="sym">this</tag>
+     <tag type="lemma">this</tag>
+     <tag type="from">14</tag>
+     <tag type="to">20</tag>
+     <tag type="sem">PRX</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Time]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Jahr</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">time</tag>
+     <tag type="lemma">time</tag>
+     <tag type="from">21</tag>
+     <tag type="to">25</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/np</tag>
+     <tag type="sym">in</tag>
+     <tag type="lemma">in</tag>
+     <tag type="from">26</tag>
+     <tag type="to">28</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Location]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">29</tag>
+     <tag type="to">-1</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Russland</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">russland</tag>
+     <tag type="lemma">russland</tag>
+     <tag type="from">29</tag>
+     <tag type="to">37</tag>
+     <tag type="sem">GPE</tag>
+     <tag type="wordnet">country.n.02</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">in</tag>
+     <tag type="cat">(n\n)/np</tag>
+     <tag type="sym">in</tag>
+     <tag type="lemma">in</tag>
+     <tag type="from">38</tag>
+     <tag type="to">40</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Location]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="from">41</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">mindestens</tag>
+     <tag type="cat">(n/n)/(n/n)</tag>
+     <tag type="sym">at~least</tag>
+     <tag type="lemma">at~least</tag>
+     <tag type="from">41</tag>
+     <tag type="to">51</tag>
+     <tag type="sem">BOT</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1013">
+   <tags>
+     <tag type="tok">fünf</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">5</tag>
+     <tag type="lemma">5</tag>
+     <tag type="from">52</tag>
+     <tag type="to">56</tag>
+     <tag type="sem">QUC</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Equal]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1014">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Fällen</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">case</tag>
+     <tag type="lemma">case</tag>
+     <tag type="from">57</tag>
+     <tag type="to">63</tag>
+     <tag type="sem">UOM</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1015">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ø</tag>
+     <tag type="cat">(n\n)/(s:pss\np)</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="sense">0</tag>
+     <tag type="sym">ø</tag>
+     <tag type="lemma">ø</tag>
+     <tag type="sem">AND</tag>
+     <tag type="from">64</tag>
+     <tag type="to">-2</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1016">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">als</tag>
+     <tag type="cat">pp/np</tag>
+     <tag type="sym">als</tag>
+     <tag type="lemma">als</tag>
+     <tag type="from">64</tag>
+     <tag type="to">67</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1017">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">die</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">the</tag>
+     <tag type="lemma">the</tag>
+     <tag type="from">68</tag>
+     <tag type="to">71</tag>
+     <tag type="sem">DEF</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1018">
+   <tags>
+     <tag type="tok">bevorzugte</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">preferred</tag>
+     <tag type="lemma">preferred</tag>
+     <tag type="from">72</tag>
+     <tag type="to">82</tag>
+     <tag type="sem">ORD</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Attribute]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1019">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Zensurmethode</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">zensurmethode</tag>
+     <tag type="lemma">zensurmethode</tag>
+     <tag type="from">83</tag>
+     <tag type="to">96</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1020">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">erwiesen</tag>
+     <tag type="cat">(s:pss\np)\pp</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">97</tag>
+     <tag type="to">105</tag>
+     <tag type="sem">EXS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1021">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">105</tag>
+     <tag type="to">106</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+   <dr label="b1" name="t1" from="0" to="0"></dr>
+   <dr label="b2" name="x1" from="14" to="20"></dr>
+   <dr label="b1" name="x2" from="29" to="-1"></dr>
+   <dr label="b1" name="x3" from="41" to="-2"></dr>
+   <dr label="b1" name="n1" from="41" to="51"></dr>
+   <dr label="b1" name="n2" from="41" to="51"></dr>
+   <dr label="b1" name="x4" from="57" to="63"></dr>
+   <dr label="b1" name="e1" from="97" to="105"></dr>
+   <dr label="b3" name="x5" from="68" to="71"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="t1" symbol="murder" synset="murder.n.01" from="0" to="0"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="t1" arg2="x2" symbol="Location" framenet="Containing@Container" from="26" to="28"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="t1" arg2="x1" symbol="Time" framenet="Time" from="14" to="20"></rel>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="t1" arg2="now" from="5" to="8"></comp>
+   </cond>
+   <cond label="b2">
+    <pred arg="x1" symbol="time" synset="time.n.01" from="21" to="25"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="x2" symbol="country" synset="country.n.02" from="29" to="37"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x2" arg2="x3" symbol="Location" framenet="Location" from="38" to="40"></rel>
+   </cond>
+   <cond label="b1">
+    <named arg="x2" symbol="russland" from="29" to="37"></named>
+   </cond>
+   <cond label="b1">
+    <pred arg="n1" symbol="quantity" synset="quantity.n.01" from="41" to="51"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="MEQ" arg1="n1" arg2="n2" from="41" to="51"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="n2" symbol="quantity" synset="quantity.n.01" from="41" to="51"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="n2" arg2="5" from="52" to="56"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="x3" symbol="measure" synset="measure.n.02" from="57" to="63"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x3" arg2="x4" symbol="Unit" framenet="Unit" from="57" to="63"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x3" arg2="n1" symbol="Quantity" framenet="Quantity" from="41" to="51"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x4" symbol="case" synset="case.n.01" from="57" to="63"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="e1" symbol="be" synset="be.v.01" from="97" to="105"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x5" symbol="Theme" framenet="Placing@Theme" from="64" to="67"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x2" symbol="Co-Theme" framenet="Replacing@New" from="97" to="105"></rel>
+   </cond>
+   <cond label="b3">
+    <pred arg="x5" symbol="zensurmethode" synset="zensurmethode.n.01" from="83" to="96"></pred>
+   </cond>
+   <cond label="b3">
+    <rel arg1="x5" arg2="preferred" symbol="Order" framenet="Order" from="72" to="82"></rel>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

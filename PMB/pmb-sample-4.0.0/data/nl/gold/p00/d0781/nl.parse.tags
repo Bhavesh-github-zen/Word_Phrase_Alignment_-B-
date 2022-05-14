@@ -1,0 +1,22 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   t(np, 'We', [from:0, to:2, lemma:'speaker', sem:'PRO', wordnet:'O', verbnet:['Sub']]),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     t((s:dcl\np)/pp, 'stonden', [from:3, to:10, lemma:'stand', sem:'EPS', wordnet:'stand.v.03', verbnet:['Theme']]),
+     fa(pp,
+      t(pp/np, 'voor', [from:11, to:15, lemma:'at', sem:'REL', wordnet:'O', verbnet:['Location']]),
+      fa(np,
+       t(np/n, 'de', [from:16, to:18, lemma:'the', sem:'DEF', wordnet:'O']),
+       t(n, 'deur', [from:19, to:23, lemma:'door', sem:'CON', wordnet:'door.n.01'])))),
+    fa((s:dcl\np)\(s:dcl\np),
+     t(((s:dcl\np)\(s:dcl\np))/(s:dcl\np), 'en', [from:24, to:26, lemma:'and', sem:'AND', wordnet:'O']),
+     t(s:dcl\np, 'wachtten', [from:27, to:35, lemma:'wait', sem:'EPS', wordnet:'wait.v.01', verbnet:['Theme']])))),
+  t(s:dcl\s:dcl, '.', [from:35, to:36, lemma:'.', sem:'NIL', wordnet:'O']))).
+

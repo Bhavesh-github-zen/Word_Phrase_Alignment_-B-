@@ -1,0 +1,24 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Gehörlose', [from:0, to:9, lemma:'gehörlose', sem:'PER', wordnet:'O'])),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'haben', [from:10, to:15, lemma:'haben', sem:'NOW', wordnet:'O']),
+    lx(np, n,
+     ba(n,
+      t(n, 'Probleme', [from:16, to:24, lemma:'problem', sem:'CON', wordnet:'O']),
+      fa(n\n,
+       t((n\n)/np, 'in', [from:25, to:27, lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+       fa(np,
+        t(np/n, 'der', [from:28, to:31, lemma:'the', sem:'DEF', wordnet:'O']),
+        fa(n,
+         t(n/n, 'sozialen', [from:32, to:40, lemma:'social', sem:'IST', wordnet:'O', verbnet:['Attribute']]),
+         t(n, 'Gemeinschaft', [from:41, to:53, lemma:'community', sem:'CON', wordnet:'O'])))))))),
+  t(s:dcl\s:dcl, '.', [from:53, to:54, lemma:'.', sem:'NIL', wordnet:'O']))).
+

@@ -1,0 +1,17 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Euro-Disney', [from:0, to:11, lemma:'euro-disney', sem:'PER', wordnet:'O'])),
+   fa(s:dcl\np,
+    t((s:dcl\np)/np, 'ist', [from:12, to:15, lemma:'be', sem:'ENS', wordnet:'O', verbnet:['Co-Theme','Theme']]),
+    fa(np,
+     t(np/n, 'ein', [from:16, to:19, lemma:'an', sem:'DIS', wordnet:'O']),
+     t(n, 'Vergnügungspark', [from:20, to:35, lemma:'vergnügungspark', sem:'CON', wordnet:'O'])))),
+  t(s:dcl\s:dcl, '.', [from:35, to:36, lemma:'.', sem:'NIL', wordnet:'O']))).
+

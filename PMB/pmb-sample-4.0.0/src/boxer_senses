@@ -1,0 +1,34 @@
+# A list of senses that might be introduced by the semantic parser Boxer
+# when converting token-based annotations and syntactic derivation trees
+# into Discourse Representation Structure boxes.
+
+address.n.01
+artifact.n.01
+be.v.01
+be.v.03
+be.v.06
+day.n.03
+entity.n.01
+event.n.01
+female.n.02
+geological_formation.n.01
+least.r.01
+location.n.01
+male.n.02
+measure.n.02
+more.r.01
+most.r.01
+name.n.01
+natural_object.n.01
+number.n.02
+old.a.01
+organization.n.01
+person.n.01
+proposition.n.01
+quantity.n.01
+question.n.01
+say.v.01
+score.n.03
+state.a.01
+time.n.08
+uniform_resource_locator.n.01

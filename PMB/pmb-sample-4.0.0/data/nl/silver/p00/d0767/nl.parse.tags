@@ -1,0 +1,42 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   ba(s:dcl,
+    t(np, 'Ik', [from:0, to:2, lemma:'speaker', sem:'PRO', wordnet:'O']),
+    ba(s:dcl\np,
+     fa(s:dcl\np,
+      t((s:dcl\np)/np, 'ben', [from:3, to:6, lemma:'be', sem:'NOW', wordnet:'O', verbnet:['Co-Theme','Theme']]),
+      fa(np,
+       t(np/n, 'een', [from:7, to:10, lemma:'a', sem:'DIS', wordnet:'O']),
+       t(n, 'mens', [from:11, to:15, lemma:'person', sem:'CON', wordnet:'O']))),
+     fa((s:dcl\np)\(s:dcl\np),
+      t(((s:dcl\np)\(s:dcl\np))/np, 'met', [from:16, to:19, lemma:'met', sem:'REL', wordnet:'O']),
+      lx(np, n,
+       t(n, 'tekortkomingen', [from:20, to:34, lemma:'tekortkomingen', sem:'CON', wordnet:'O']))))),
+   t(s:dcl\s:dcl, ',', [from:34, to:35, lemma:',', sem:'NIL', wordnet:'O'])),
+  fa(s:dcl\s:dcl,
+   t((s:dcl\s:dcl)/s:dcl, 'maar', [from:36, to:40, lemma:'but', sem:'BUT', wordnet:'O']),
+   ba(s:dcl,
+    ba(s:dcl,
+     t(np, 'het', [from:41, to:44, lemma:'entity', sem:'PRO', wordnet:'entity.n.01']),
+     fa(s:dcl\np,
+      t((s:dcl\np)/np, 'zijn', [from:45, to:49, lemma:'be', sem:'ENS', wordnet:'O', verbnet:['Co-Theme','Theme']]),
+      lx(np, n,
+       ba(n,
+        t(n, 'tekortkomingen', [from:50, to:64, lemma:'flaw', sem:'REL', wordnet:'O']),
+        fa(n\n,
+         t((n\n)/(s:dcl\np), 'die', [from:65, to:68, lemma:'that', sem:'DST', wordnet:'O']),
+         ba(s:dcl\np,
+          fa(s:pss\np,
+           t((s:pss\np)/(s:pss\np), 'makkelijk', [from:69, to:78, lemma:'easily', sem:'IST', wordnet:'O', verbnet:['Manner']]),
+           t(s:pss\np, 'verholpen', [from:79, to:88, lemma:'fix', sem:'CON', wordnet:'O', verbnet:['Patient']])),
+          fxc((s:dcl\np)\(s:pss\np),
+           t((s:dcl\np)/(s:b\np), 'kunnen', [from:89, to:95, lemma:'can', sem:'ENS', wordnet:'O']),
+           t((s:b\np)\(s:pss\np), 'worden', [from:96, to:102, lemma:'be', sem:'NOW', wordnet:'O'])))))))),
+    t(s:dcl\s:dcl, '.', [from:102, to:103, lemma:'.', sem:'NIL', wordnet:'O']))))).
+

@@ -1,0 +1,21 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   lx(np, n,
+    t(n, 'Reizen', [from:0, to:6, lemma:'travel', sem:'PRO', wordnet:'O'])),
+   ba(s:dcl\np,
+    fa(s:dcl\np,
+     bxc((s:dcl\np)/np,
+      t((s:dcl\np)/np, 'is', [from:7, to:9, lemma:'be', sem:'NOW', wordnet:'O']),
+      t((s:dcl\np)\(s:dcl\np), 'vandaag', [from:10, to:17, lemma:'entity', sem:'NOW', wordnet:'O', verbnet:['Time']])),
+     fa(np,
+      t(np/n, 'de', [from:18, to:20, lemma:'de', sem:'DEF', wordnet:'O']),
+      t(n, 'dag', [from:21, to:24, lemma:'day', sem:'CON', wordnet:'O']))),
+    t((s:dcl\np)\(s:dcl\np), 'gemakkelijk', [from:25, to:36, lemma:'easy', sem:'ALT', wordnet:'O', verbnet:['Attribute']]))),
+  t(s:dcl\s:dcl, '.', [from:36, to:37, lemma:'.', sem:'NIL', wordnet:'O']))).
+

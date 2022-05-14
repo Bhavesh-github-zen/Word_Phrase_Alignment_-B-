@@ -1,0 +1,20 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  t(np, 'We', [from:0, to:2, pos:'PRP', lemma:'speaker', sem:'PRO', wordnet:'O']),
+  fa(s:dcl\np,
+   t((s:dcl\np)/np, 'lead', [from:3, to:7, pos:'VBP', lemma:'lead', sem:'ENS', wordnet:'O', verbnet:['Theme','Agent']]),
+   rp(np,
+    fa(np,
+     t(np/n, 'a', [from:8, to:9, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+     fa(n,
+      fa(n/n,
+       t((n/n)/(n/n), 'very', [from:10, to:14, pos:'RB', lemma:'very', sem:'INT', wordnet:'O']),
+       t(n/n, 'ordinary', [from:15, to:23, pos:'JJ', lemma:'ordinary', sem:'IST', wordnet:'O', verbnet:['Attribute']])),
+      t(n, 'life', [from:24, to:28, pos:'NN', lemma:'life', sem:'CON', wordnet:'O']))),
+    t(., '.', [from:28, to:29, pos:'.', lemma:'.', sem:'NIL', wordnet:'O']))))).
+

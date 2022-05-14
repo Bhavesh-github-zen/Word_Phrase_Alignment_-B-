@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- Als ik geen antwoord gaf zou ik niet gesproken hebben . --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">Als</tag>
+     <tag type="cat">(s:dcl/s:dcl)/np</tag>
+     <tag type="sym">if</tag>
+     <tag type="lemma">if</tag>
+     <tag type="from">0</tag>
+     <tag type="to">3</tag>
+     <tag type="sem">IMP</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ik</tag>
+     <tag type="cat">np</tag>
+     <tag type="sym">speaker</tag>
+     <tag type="lemma">speaker</tag>
+     <tag type="from">4</tag>
+     <tag type="to">6</tag>
+     <tag type="sem">PRO</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">geen</tag>
+     <tag type="cat">(s:dcl\np)/(s:dcl\np)</tag>
+     <tag type="sym">no</tag>
+     <tag type="lemma">no</tag>
+     <tag type="from">7</tag>
+     <tag type="to">11</tag>
+     <tag type="sem">NOT</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">antwoord</tag>
+     <tag type="cat">np</tag>
+     <tag type="sym">answer</tag>
+     <tag type="lemma">answer</tag>
+     <tag type="from">12</tag>
+     <tag type="to">20</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">gaf</tag>
+     <tag type="cat">(s:b\np)\(s:b\np)</tag>
+     <tag type="sym">give</tag>
+     <tag type="lemma">give</tag>
+     <tag type="from">21</tag>
+     <tag type="to">24</tag>
+     <tag type="sem">EPS</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="2">[Theme,Agent]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">zou</tag>
+     <tag type="cat">(s:dcl\np)\(s:b\np)</tag>
+     <tag type="sym">would</tag>
+     <tag type="lemma">would</tag>
+     <tag type="from">25</tag>
+     <tag type="to">28</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">ik</tag>
+     <tag type="cat">np</tag>
+     <tag type="sym">speaker</tag>
+     <tag type="lemma">speaker</tag>
+     <tag type="from">29</tag>
+     <tag type="to">31</tag>
+     <tag type="sem">PRO</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">niet</tag>
+     <tag type="cat">(s:dcl\np)\(s:dcl\np)</tag>
+     <tag type="sym">not</tag>
+     <tag type="lemma">not</tag>
+     <tag type="from">32</tag>
+     <tag type="to">36</tag>
+     <tag type="sem">NOT</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="tok">gesproken</tag>
+     <tag type="cat">(s:b\np)/(s:b\np)</tag>
+     <tag type="sym">speak</tag>
+     <tag type="lemma">speak</tag>
+     <tag type="from">37</tag>
+     <tag type="to">46</tag>
+     <tag type="sem">EXT</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Agent]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">hebben</tag>
+     <tag type="cat">(s:b\np)\np</tag>
+     <tag type="sym">have</tag>
+     <tag type="lemma">have</tag>
+     <tag type="from">47</tag>
+     <tag type="to">53</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">.</tag>
+     <tag type="cat">s:dcl\s:dcl</tag>
+     <tag type="sym">.</tag>
+     <tag type="lemma">.</tag>
+     <tag type="from">53</tag>
+     <tag type="to">54</tag>
+     <tag type="sem">NIL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <sdrs>
+  <constituents>
+   <constituent label="b1">
+    <tokens>
+    </tokens>
+    <drs label="b1">
+     <domain>
+     </domain>
+     <conds>
+     </conds>
+    </drs>
+   </constituent>
+   <constituent label="b2">
+    <tokens>
+     <token>ik</token>
+    </tokens>
+    <drs label="b2">
+     <domain>
+      <dr label="b2" name="x1" from="4" to="6"></dr>
+      <dr label="b2" name="e1" from="0" to="0"></dr>
+     </domain>
+     <conds>
+      <cond label="b2">
+       <pred arg="x1" symbol="person" synset="person.n.01" from="4" to="6"></pred>
+      </cond>
+      <cond label="b2">
+       <comp symbol="EQU" arg1="x1" arg2="speaker" from="4" to="6"></comp>
+      </cond>
+      <cond label="b2">
+       <pred arg="e1" symbol="event" synset="event.v.01" from="0" to="0"></pred>
+      </cond>
+      <cond label="b2">
+       <rel arg1="e1" arg2="x1" symbol="Participant" framenet="Participant" from="0" to="0"></rel>
+      </cond>
+     </conds>
+    </drs>
+   </constituent>
+   <constituent label="b3">
+    <tokens>
+     <token>geen</token>
+     <token>antwoord</token>
+     <token>gaf</token>
+     <token>ik</token>
+     <token>niet</token>
+     <token>gesproken</token>
+     <token>hebben</token>
+     <token>.</token>
+    </tokens>
+    <drs label="b3">
+     <domain>
+      <dr label="b3" name="x2" from="29" to="31"></dr>
+     </domain>
+     <conds>
+      <cond label="b3">
+       <pred arg="x2" symbol="person" synset="person.n.01" from="29" to="31"></pred>
+      </cond>
+      <cond label="b3">
+       <comp symbol="EQU" arg1="x2" arg2="speaker" from="29" to="31"></comp>
+      </cond>
+      <cond label="b3">
+       <not from="32" to="36">
+        <drs label="b4">
+         <domain>
+         </domain>
+         <conds>
+          <cond label="b4">
+           <not from="7" to="11">
+            <drs label="b5">
+             <domain>
+              <dr label="b5" name="e2" from="21" to="24"></dr>
+              <dr label="b5" name="e3" from="37" to="46"></dr>
+              <dr label="b5" name="x3" from="12" to="20"></dr>
+              <dr label="b2" name="t1" from="0" to="0"></dr>
+             </domain>
+             <conds>
+              <cond label="b5">
+               <pred arg="x3" symbol="answer" synset="answer.n.01" from="12" to="20"></pred>
+              </cond>
+              <cond label="b5">
+               <pred arg="e2" symbol="give" synset="give.v.01" from="21" to="24"></pred>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e2" arg2="t1" symbol="Time" framenet="Time" from="21" to="24"></rel>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e2" arg2="e3" symbol="Theme" framenet="Theme" from="21" to="24"></rel>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e2" arg2="x2" symbol="Agent" framenet="Agent" from="21" to="24"></rel>
+              </cond>
+              <cond label="b5">
+               <pred arg="e3" symbol="speak" synset="speak.v.01" from="37" to="46"></pred>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e3" arg2="t1" symbol="Time" framenet="Time" from="37" to="46"></rel>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e3" arg2="x3" symbol="Stimulus" framenet="Stimulus" from="37" to="46"></rel>
+              </cond>
+              <cond label="b5">
+               <rel arg1="e3" arg2="x2" symbol="Experiencer" framenet="Experiencer" from="37" to="46"></rel>
+              </cond>
+              <cond label="b5">
+               <comp symbol="EQU" arg1="x2" arg2="now" from="47" to="53"></comp>
+              </cond>
+              <cond label="b5">
+               <comp symbol="EQU" arg1="x2" arg2="x3" from="47" to="53"></comp>
+              </cond>
+              <cond label="b2">
+               <pred arg="t1" symbol="time" synset="time.n.08" from="0" to="0"></pred>
+              </cond>
+              <cond label="b2">
+               <comp symbol="TPR" arg1="t1" arg2="now" from="0" to="0"></comp>
+              </cond>
+             </conds>
+            </drs>
+           </not>
+          </cond>
+         </conds>
+        </drs>
+       </not>
+      </cond>
+     </conds>
+    </drs>
+   </constituent>
+  </constituents>
+  <relations>
+   <drel arg1="b1" arg2="b2" sym="CONDITION" from="0" to="3"></drel>
+   <drel arg1="b2" arg2="b3" sym="CONSEQUENCE" from="0" to="3"></drel>
+  </relations>
+ </sdrs>
+</xdrs>
+</xdrs-output>

@@ -1,0 +1,39 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(np,
+   t(np/n, 'A', [from:0, to:1, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+   t(n, 'girl', [from:2, to:6, pos:'NN', lemma:'girl', sem:'CON', wordnet:'girl.n.01'])),
+  ba(s:dcl\np,
+   fa(s:dcl\np,
+    t((s:dcl\np)/(s:ng\np), 'is', [from:7, to:9, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+    fa(s:ng\np,
+     t((s:ng\np)/pp, 'standing', [from:10, to:18, pos:'VBG', lemma:'stand', sem:'EXG', wordnet:'O', verbnet:['Theme']]),
+     fa(pp,
+      t(pp/np, 'in', [from:19, to:21, pos:'IN', lemma:'in', sem:'REL', wordnet:'O', verbnet:['Location']]),
+      fa(np,
+       t(np/n, 'a', [from:22, to:23, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+       t(n, 'group', [from:24, to:29, pos:'NN', lemma:'group', sem:'CON', wordnet:'O']))))),
+   conj((s:dcl\np)\(s:dcl\np),
+    t(conj, 'and', [from:30, to:33, pos:'CC', lemma:'and', sem:'AND', wordnet:'O']),
+    fa(s:dcl\np,
+     t((s:dcl\np)/(s:ng\np), 'is', [from:34, to:36, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+     fa(s:ng\np,
+      t((s:ng\np)/np, 'wearing', [from:37, to:44, pos:'VBG', lemma:'wear', sem:'EXG', wordnet:'O', verbnet:['Theme','Agent']]),
+      ba(np,
+       fa(np,
+        t(np/n, 'a', [from:45, to:46, pos:'DT', lemma:'a', sem:'DIS', wordnet:'O']),
+        fa(n,
+         t(n/n, 'black', [from:47, to:52, pos:'JJ', lemma:'black', sem:'COL', wordnet:'O', verbnet:['Colour']]),
+         t(n, 'shirt', [from:53, to:58, pos:'NN', lemma:'shirt', sem:'CON', wordnet:'shirt.n.01']))),
+       conj(np\np,
+        t(conj, 'and', [from:59, to:62, pos:'CC', lemma:'and', sem:'AND', wordnet:'O']),
+        lx(np, n,
+         fa(n,
+          t(n/n, 'pink', [from:63, to:67, pos:'VB', lemma:'pink', sem:'COL', wordnet:'O', verbnet:['Colour']]),
+          t(n, 'beads', [from:68, to:73, pos:'NNS', lemma:'beads', sem:'CON', wordnet:'beads.n.01']))))))))))).
+

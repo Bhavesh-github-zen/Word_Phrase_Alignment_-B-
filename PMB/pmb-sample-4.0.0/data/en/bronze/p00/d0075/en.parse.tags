@@ -1,0 +1,25 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  t(np, 'It', [from:0, to:2, pos:'PRP', lemma:'entity', sem:'PRO', wordnet:'O']),
+  fa(s:dcl\np,
+   t((s:dcl\np)/np, '\'s', [from:2, to:4, pos:'VBZ', lemma:'be', sem:'NOW', wordnet:'O']),
+   fa(np,
+    t(np/n, 'no', [from:5, to:7, pos:'DT', lemma:'no', sem:'NOT', wordnet:'O']),
+    ba(n,
+     t(n, 'good', [from:8, to:12, pos:'JJ', lemma:'good', sem:'IST', wordnet:'O']),
+     lx(n\n, s:ng\np,
+      fa(s:ng\np,
+       t((s:ng\np)/(s:to\np), 'trying', [from:13, to:19, pos:'VBG', lemma:'try', sem:'EXG', wordnet:'O', verbnet:['Theme','Agent']]),
+       fa(s:to\np,
+        t((s:to\np)/(s:b\np), 'to', [from:20, to:22, pos:'TO', lemma:'to', sem:'NIL', wordnet:'O']),
+        rp(s:b\np,
+         fa(s:b\np,
+          t((s:b\np)/np, 'persuade', [from:23, to:31, pos:'VB', lemma:'persuade', sem:'EXS', wordnet:'O', verbnet:['Theme','Agent']]),
+          t(np, 'her', [from:32, to:35, pos:'PRP', lemma:'female', sem:'PRO', wordnet:'female.n.02'])),
+         t(., '.', [from:35, to:36, pos:'.', lemma:'.', sem:'NIL', wordnet:'O'])))))))))).
+

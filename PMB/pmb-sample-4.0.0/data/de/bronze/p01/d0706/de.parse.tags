@@ -1,0 +1,42 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  fa(s:dcl,
+   bxc(s:dcl/(n\n),
+    fc(np/(n\n),
+     t(np/n, 'Alle', [from:0, to:4, lemma:'all', sem:'AND', wordnet:'O']),
+     lx(n/(n\n), n,
+      t(n, 'Termine', [from:5, to:12, lemma:'appointment', sem:'CON', wordnet:'O']))),
+    fa(s:dcl\np,
+     t((s:dcl\np)/(s:pss\np), 'werden', [from:13, to:19, lemma:'be', sem:'NOW', wordnet:'O']),
+     fa(s:pss\np,
+      bxc((s:pss\np)/(np\np),
+       fc(((s:pss\np)/(s:pss\np))/(np\np),
+        t(((s:pss\np)/(s:pss\np))/np, 'durch', [from:20, to:25, lemma:'through', sem:'REL', wordnet:'O', verbnet:['Path']]),
+        lx(np/(np\np), np,
+         fa(np,
+          t(np/n, 'die', [from:26, to:29, lemma:'the', sem:'DEF', wordnet:'O']),
+          t(n, 'Computer-Terminals', [from:30, to:48, lemma:'computer-terminals', sem:'CON', wordnet:'O'])))),
+       lx((s:pss\np)\((s:pss\np)/(s:pss\np)), s:pss\np,
+        t(s:pss\np, 'arrangiert', [from:49, to:59, lemma:'arrange', sem:'ENS', wordnet:'O', verbnet:['Theme']]))),
+      fa(np\np,
+       t((np\np)/np, ',', [from:59, to:60, lemma:',', sem:'REL', wordnet:'O']),
+       t(np, 'die', [from:61, to:64, lemma:'die', sem:'DEF', wordnet:'O']))))),
+   lx(n\n, s:dcl/np,
+    bxc(s:dcl/np,
+     fc(np/np,
+      t(np/n, 'die', [from:65, to:68, lemma:'die', sem:'DEF', wordnet:'O']),
+      t(n/np, 'Terminaufzeichnungen', [from:69, to:89, lemma:'terminaufzeichnungen', sem:'CON', wordnet:'O'])),
+     ba(s:dcl\np,
+      ba(s:b\np,
+       fa(np,
+        t(np/n, 'jedes', [from:90, to:95, lemma:'each', sem:'AND', wordnet:'O']),
+        t(n, 'Patienten', [from:96, to:105, lemma:'patient', sem:'ROL', wordnet:'O'])),
+       t((s:b\np)\np, 'anzeigen', [from:106, to:114, lemma:'anzeigen', sem:'NEC', wordnet:'O'])),
+      t((s:dcl\np)\(s:b\np), 'können', [from:115, to:121, lemma:'können', sem:'POS', wordnet:'O']))))),
+  t(s:dcl\s:dcl, '.', [from:121, to:122, lemma:'.', sem:'NIL', wordnet:'O']))).
+

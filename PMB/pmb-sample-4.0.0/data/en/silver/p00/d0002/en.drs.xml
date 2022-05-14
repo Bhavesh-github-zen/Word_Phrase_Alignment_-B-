@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xdrs-output SYSTEM "src/dtd/xdrs.dtd">
+<xdrs-output version="'boxer v1.00 (unix build on 21 May 2021, 16:29:40)'">
+<!-- A blond boy is walking up a sand dune with a skateboard --> 
+
+<xdrs xml:id="xdrs1">
+ <taggedtokens>
+  <tagtoken xml:id="i1001">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">A</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">0</tag>
+     <tag type="to">1</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1002">
+   <tags>
+     <tag type="tok">blond</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">blond</tag>
+     <tag type="lemma">blond</tag>
+     <tag type="from">2</tag>
+     <tag type="to">7</tag>
+     <tag type="pos">JJ</tag>
+     <tag type="sem">IST</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Attribute]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1003">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">boy</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">boy</tag>
+     <tag type="lemma">boy</tag>
+     <tag type="from">8</tag>
+     <tag type="to">11</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">boy.n.01</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1004">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">is</tag>
+     <tag type="cat">(s:dcl\np)/(s:ng\np)</tag>
+     <tag type="sym">be</tag>
+     <tag type="lemma">be</tag>
+     <tag type="from">12</tag>
+     <tag type="to">14</tag>
+     <tag type="pos">VBZ</tag>
+     <tag type="sem">NOW</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1005">
+   <tags>
+     <tag type="tok">walking</tag>
+     <tag type="cat">((s:ng\np)/np)/pr</tag>
+     <tag type="sym">walk</tag>
+     <tag type="lemma">walk</tag>
+     <tag type="from">15</tag>
+     <tag type="to">22</tag>
+     <tag type="pos">VBG</tag>
+     <tag type="sem">EXG</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Theme]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1006">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">up</tag>
+     <tag type="cat">pr</tag>
+     <tag type="sym">up</tag>
+     <tag type="lemma">up</tag>
+     <tag type="from">23</tag>
+     <tag type="to">25</tag>
+     <tag type="pos">RP</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1007">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">a</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">26</tag>
+     <tag type="to">27</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1008">
+   <tags>
+     <tag type="tok">sand</tag>
+     <tag type="cat">n/n</tag>
+     <tag type="sym">sand</tag>
+     <tag type="lemma">sand</tag>
+     <tag type="from">28</tag>
+     <tag type="to">32</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[MadeOf]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1009">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">dune</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">dune</tag>
+     <tag type="lemma">dune</tag>
+     <tag type="from">33</tag>
+     <tag type="to">37</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1010">
+   <tags>
+     <tag type="tok">with</tag>
+     <tag type="cat">((s:dcl\np)\(s:dcl\np))/np</tag>
+     <tag type="sym">with</tag>
+     <tag type="lemma">with</tag>
+     <tag type="from">38</tag>
+     <tag type="to">42</tag>
+     <tag type="pos">IN</tag>
+     <tag type="sem">REL</tag>
+     <tag type="wordnet">O</tag>
+     <tag type="verbnet" n="1">[Instrument]</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1011">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">a</tag>
+     <tag type="cat">np/n</tag>
+     <tag type="sym">a</tag>
+     <tag type="lemma">a</tag>
+     <tag type="from">43</tag>
+     <tag type="to">44</tag>
+     <tag type="pos">DT</tag>
+     <tag type="sem">DIS</tag>
+     <tag type="wordnet">O</tag>
+   </tags>
+  </tagtoken>
+  <tagtoken xml:id="i1012">
+   <tags>
+     <tag type="verbnet" n="0">[]</tag>
+     <tag type="tok">skateboard</tag>
+     <tag type="cat">n</tag>
+     <tag type="sym">skateboard</tag>
+     <tag type="lemma">skateboard</tag>
+     <tag type="from">45</tag>
+     <tag type="to">55</tag>
+     <tag type="pos">NN</tag>
+     <tag type="sem">CON</tag>
+     <tag type="wordnet">skateboard.n.01</tag>
+   </tags>
+  </tagtoken>
+ </taggedtokens>
+ <drs label="b1">
+  <domain>
+   <dr label="b1" name="x1" from="0" to="1"></dr>
+   <dr label="b1" name="s1" from="2" to="7"></dr>
+   <dr label="b1" name="x2" from="26" to="27"></dr>
+   <dr label="b1" name="x3" from="28" to="32"></dr>
+   <dr label="b1" name="e1" from="15" to="22"></dr>
+   <dr label="b1" name="t1" from="12" to="14"></dr>
+   <dr label="b1" name="x4" from="43" to="44"></dr>
+  </domain>
+  <conds>
+   <cond label="b1">
+    <pred arg="s1" symbol="blond" synset="blond.a.01" from="2" to="7"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="s1" arg2="x1" symbol="AttributeOf" framenet="AttributeOf" from="2" to="7"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x1" symbol="boy" synset="boy.n.01" from="8" to="11"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="t1" symbol="time" synset="time.n.08" from="12" to="14"></pred>
+   </cond>
+   <cond label="b1">
+    <comp symbol="EQU" arg1="t1" arg2="now" from="12" to="14"></comp>
+   </cond>
+   <cond label="b1">
+    <pred arg="e1" symbol="walk" synset="walk.v.01" from="15" to="22"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x4" symbol="Instrument" framenet="Reshaping@Instrument" from="38" to="42"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="t1" symbol="Time" framenet="Time" from="12" to="14"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x2" symbol="Path" framenet="Path" from="15" to="22"></rel>
+   </cond>
+   <cond label="b1">
+    <rel arg1="e1" arg2="x1" symbol="Theme" framenet="Theme" from="15" to="22"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x3" symbol="sand" synset="sand.n.01" from="28" to="32"></pred>
+   </cond>
+   <cond label="b1">
+    <pred arg="x2" symbol="dune" synset="dune.n.01" from="33" to="37"></pred>
+   </cond>
+   <cond label="b1">
+    <rel arg1="x2" arg2="x3" symbol="MadeOf" framenet="MadeOf" from="28" to="32"></rel>
+   </cond>
+   <cond label="b1">
+    <pred arg="x4" symbol="skateboard" synset="skateboard.n.01" from="45" to="55"></pred>
+   </cond>
+  </conds>
+ </drs>
+</xdrs>
+</xdrs-output>

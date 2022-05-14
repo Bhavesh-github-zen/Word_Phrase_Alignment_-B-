@@ -1,0 +1,6 @@
+subcorpus: SICK
+source: http://clic.cimec.unitn.it/composes/sick.html
+problems: p7039, h7041
+inferences: neutral (1), contradiction (1)
+splits: test (2)
+initial_corpora: FLICKR (2)

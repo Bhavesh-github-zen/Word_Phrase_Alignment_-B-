@@ -1,0 +1,20 @@
+:- op(601, xfx, (/)).
+:- op(601, xfx, (\)).
+:- multifile ccg/2, id/2.
+:- discontiguous ccg/2, id/2.
+
+ccg(1,
+ ba(s:dcl,
+  ba(s:dcl,
+   fa(np,
+    t(np/(n/pp), 'Mio', [from:0, to:3, lemma:'speaker', sem:'HAS', wordnet:'O', verbnet:['Of']]),
+    t(n/pp, 'zio', [from:4, to:7, lemma:'uncle', sem:'ROL', wordnet:'uncle.n.01'])),
+   fa(s:dcl\np,
+    ba((s:dcl\np)/np,
+     t(np, 'mi', [from:8, to:10, lemma:'speaker', sem:'PRO', wordnet:'O']),
+     t(((s:dcl\np)/np)\np, 'comprò', [from:11, to:17, lemma:'buy', sem:'EPS', wordnet:'buy.v.01', verbnet:['Beneficiary','Theme','Agent']])),
+    fa(np,
+     t(np/n, 'questo', [from:18, to:24, lemma:'entity', sem:'PRX', wordnet:'entity.n.01']),
+     t(n, 'libro', [from:25, to:30, lemma:'book', sem:'CON', wordnet:'book.n.02'])))),
+  t(s:dcl\s:dcl, '.', [from:30, to:31, lemma:'.', sem:'NIL', wordnet:'O']))).
+
